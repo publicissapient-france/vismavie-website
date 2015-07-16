@@ -1,23 +1,72 @@
-<md-content>
-    <md-toolbar>
-        <div class="md-toolbar-tools">
-            <md-button class="md-icon-button" aria-label="Settings">
-                <md-icon ng-style="{color: '#014157'}" md-font-set="material-icons">menu</md-icon>
-            </md-button>
-            <h2>
-                <span>Toolbar with Icon Buttons</span>
-            </h2>
-            <span flex></span>
-            <md-button class="md-icon-button" aria-label="Favorite">
-                <md-icon ng-style="{color: 'greenyellow'}" md-font-set="material-icons">favorite</md-icon>
-            </md-button>
-            <md-button class="md-icon-button" aria-label="More">
-                <md-icon ng-style="{color: 'red'}" md-font-set="material-icons">more</md-icon>
-            </md-button>
+<episodes-menu></episodes-menu>
+
+<div class="center">
+    <img ng-src="{{sourceImgBg}}" class="img-bg-detail"/>
+    <img ng-src="{{sourceImgBgMini}}" class="img-bg-detail-mini"/>
+</div>
+
+<div class="phrase-bg center">
+    <div class="bloc-consulte">
+        <h1>{{expert}}</h1>
+
+        <div class="texte-consulte">
+            <p>{{phraseConsulte}}</p>
         </div>
-    </md-toolbar>
-</md-content>
+        <h2>{{nomConsulte}}</h2>
+    </div>
 
-DETAILS PAGE
+    <div class="bloc-consultant">
+        <h1>{{apprenti}}</h1>
+        <div class="texte-consultant">
+            <p>{{phraseConsultant}}</p>
+        </div>
+        <h2>{{nomConsultant}}</h2>
+    </div>
+</div>
 
-<h1>Je suis {{name}}</h1>
+<div class="video_page center">
+    <iframe id="video" width="640" height="460" frameborder="0" allowfullscreen></iframe>
+        <ul class="social-video-share">
+            <li>Partager : </li>
+            <li><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://www.google-plus.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+</div>
+
+<div class="ressentis center">
+    <h1>LES RESSENTIS DU CONSULTANT</h1>
+
+        <div class="img_consultant">
+            <img ng-srcset="{{rond1}}" class="img_rond" />
+            <h2>{{nom12}}</h2>
+        </div>
+        <div class="quote">
+            <p>{{quote1}}</p>
+        </div>
+
+</div>
+
+<div class="plus_moins center">
+    <div class="plus">
+        <img src="img/plus.png" class="img_plus_moins"/>
+        <ul>
+            <li>{{plus1}}</li>
+            <li>{{plus2}}</li>
+            <li>{{plus3}}s</li>
+        </ul>
+    </div>
+    <div class="moins">
+        <img src="img/moins.png" class="img_plus_moins"/>
+        <ul>
+            <li>{{moins1}}</li>
+            <li>{{moins2}}</li>
+            <li>{{moins3}}</li>
+        </ul>
+    </div>
+</div>
+
+
+<menu-video></menu-video>
+
+<footer-page></footer-page>
