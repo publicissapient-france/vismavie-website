@@ -1,0 +1,28 @@
+<md-content class="center" id="top">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <a href="#/"><img src="img/logo_vismavie.png" /></a>
+
+            <span flex></span>
+
+            <a href="#/#concept" class="menu-link">Concept</a>
+
+            <md-menu md-offset="0 -7">
+                <a ng-click="$mdOpenMenu()" class="menu-link">
+                    Episodes
+                </a>
+                <md-menu-content width="4">
+                    <md-menu-item ng-repeat="item in [1, 2, 3, 4, 5, 6, 7, 8, 9]">
+                        <md-button href="#/details?id={{item}}"> <span md-menu-align-target>Episode</span> {{item}} </md-button>
+                    </md-menu-item>
+                </md-menu-content>
+            </md-menu>
+
+            <a href="http://blog.xebia.fr" class="menu-link" target="_blank">Blog</a>
+
+            <a href="http://www.xebia.fr/career.html" class="menu-link" target="_blank">Nous Rejoindre</a>
+
+
+        </div>
+    </md-toolbar>
+</md-content>
