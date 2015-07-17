@@ -3,37 +3,40 @@
 angular.module('app')
     .controller('DetailsCtrl', ['$scope', '$location', function ($scope, $location) {
 
-        var id = $location.search().id;
+        var id = $location.search().id || 1;
 
         $scope.changeData = function(id) {
+
+            console.log(angular.element('#video'));
             if (id == 1) {
                 $scope.name = 'pablo';
                 $scope.expert = 'L’EXPERT';
                 $scope.sourceImgBg = 'img/bg_cto.png';
+                $scope.sourceImgBgMini = 'img/bg_cto_560.png';
                 $scope.phraseConsulte = 'I am the CTO bitch !';
                 $scope.nomConsulte = 'Pablo Lopez, CTO';
                 $scope.apprenti = 'L’APPRENTI';
                 $scope.phraseConsultant = '50 kilos tout mouillé';
                 $scope.nomConsultant = 'Alexandre Hebert, Consultant';
                 $scope.rond1 = 'img/alexandre_hebert.png';
-                $scope.quote1 = 'Une expérience très enrichisante, à refaire dès que possible, j’ai beaucoup appris sur le role du CTO. Je ne sais pas comment il fait pour faire tant de chose, Pablo est GE-NIAL et HY-PER ACTIF...';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.quote1 = 'Une journée haute en chaleur, ponctuée par de nombreux déplacements aux quatres coins du siège, et durant laquelle j’ai pu suivre partout un CTO très volubile qui n’a pas hésité à répondre à toutes mes questions, en me faisant par la même occasion découvrir son métier des caves au grenier : des difficultés qu’il rencontre au quotidien jusqu’aux aspects les plus passionnants ! C T Ouf !';
+                $scope.plus1 = '- Variété des responsabilités';
+                $scope.plus2 = '- Variété des tâches';
+                $scope.plus3 = '- Force de proposition du CTO quant aux choix des missions qui pourraient intéresser les Xebians';
+                $scope.moins1 = '- La température ( pas celle de mon CTO, celle de l’air : vive la canicule ;) )';
+                $scope.moins2 = '- Les relances par mail';
                 document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
             }
 
             else if (id == 2) {
                 $scope.name = 'luc';
                 $scope.sourceImgBg = 'img/bg_ceo.png';
+                $scope.sourceImgBgMini = 'img/bg_ceo_560.png';
                 $scope.phraseConsulte = 'I am the CEO bitch !';
                 $scope.nomConsulte = 'Luc Legardeur, CEO';
                 $scope.expert = 'L’EXPERT';
                 $scope.apprenti = 'L’APPRENTIE';
-                $scope.phraseConsultant = 'Calif a la place du calif';
+                $scope.phraseConsultant = 'C’est qui le patron ???';
                 $scope.nomConsultant = 'Laurène Vol, Consultante';
                 $scope.rond1 = 'img/laurene_vol.png';
                 $scope.quote1 = 'Journée enrichissante, passionante, beaucoup de moment clés. Participation à un comité de direction : très instructif';
@@ -72,9 +75,10 @@ angular.module('app')
             else if (id == 4) {
                 $scope.name = 'laetitia';
                 $scope.sourceImgBg = 'img/bg_recrutement.png';
+                $scope.sourceImgBgMini = 'img/bg_recrutement_560.png';
                 $scope.phraseConsulte = 'Une chasseuse sachant chasser…';
-                $scope.nomConsulte = 'Laetitia, Directrice du recrutement';
-                $scope.phraseConsultant = 'Coucou, tu veux voir Magritte ?';
+                $scope.nomConsulte = 'Laetitia, Responsable du recrutement';
+                $scope.phraseConsultant = 'La puissance de la funk !';
                 $scope.nomConsultant = 'Jeremy Vinai, Consultant';
                 $scope.expert = 'L’EXPERTE';
                 $scope.apprenti = 'L’APPRENTI';
@@ -93,6 +97,7 @@ angular.module('app')
             else if (id == 5) {
                 $scope.name = 'christophe';
                 $scope.sourceImgBg = 'img/bg_coo.png';
+                $scope.sourceImgBgMini = 'img/bg_coo_560.png';
                 $scope.phraseConsulte = 'I am the COO bitch !';
                 $scope.nomConsulte = 'Christophe Heubes, COO';
                 $scope.phraseConsultant = 'Opérations TEKNIKE';
@@ -114,6 +119,7 @@ angular.module('app')
             else if (id == 6) {
                 $scope.name = 'jean-louis';
                 $scope.sourceImgBg = 'img/bg_manager.png';
+                $scope.sourceImgBgMini = 'img/bg_manager_560.png';
                 $scope.phraseConsulte = 'I manage, you manage, he manages';
                 $scope.nomConsulte = 'Jean-Louis Rigau, Manager';
                 $scope.phraseConsultant = 'Je veux manager ! ';
@@ -135,7 +141,8 @@ angular.module('app')
             else if (id == 7) {
                 $scope.name = 'estelle';
                 $scope.sourceImgBg = 'img/bg_commerce.png';
-                $scope.phraseConsulte = 'Direction chez le client';
+                $scope.sourceImgBgMini = 'img/bg_commerce_560.png';
+                $scope.phraseConsulte = 'Daf punk';
                 $scope.nomConsulte = 'Estelle Boyer, Directrice Commerciale';
                 $scope.phraseConsultant = 'Choucroute garnie c"est la vie !';
                 $scope.expert = 'L’EXPERTE';
@@ -156,6 +163,7 @@ angular.module('app')
             else if (id == 8) {
                 $scope.name = 'nadia';
                 $scope.sourceImgBg = 'img/bg_daf.png';
+                $scope.sourceImgBgMini = 'img/bg_daf_560.png';
                 $scope.phraseConsulte = 'Pas de justif pas de fric !';
                 $scope.nomConsulte = 'Nadia Sidhoum, DAF';
                 $scope.phraseConsultant = 'DAFicionado !';
@@ -177,8 +185,9 @@ angular.module('app')
             else if (id == 9) {
                 $scope.name = 'thibaud';
                 $scope.sourceImgBg = 'img/bg_studio.png';
-                $scope.phraseConsulte = 'Studio, Studia, Studiès';
-                $scope.nomConsulte = 'Thibaud Cavin, Responsable Studio';
+                $scope.sourceImgBgMini = 'img/bg_studio_560.png';
+                $scope.phraseConsulte = 'Le forfait, oui, mais seulement au ski !';
+                $scope.nomConsulte = 'Thibaud Cavin, Responsable Xebia Studio';
                 $scope.phraseConsultant = 'A grand, grand et demi ?';
                 $scope.expert = 'L’EXPERT';
                 $scope.apprenti = 'L’APPRENTI';
@@ -198,6 +207,10 @@ angular.module('app')
         }
 
         $scope.changeData(id);
+
+        $scope.$on('changeId', function($event, id) {
+            $scope.changeData(id);
+        });
 
         $scope.gotoConcept = function() {
 

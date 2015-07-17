@@ -7,7 +7,7 @@ angular.module('app')
 
         var id = $location.search().id || 1;
 
-        $scope.changeData = function(id) {
+        /*$scope.changeData = function(id) {
             if (id == 1) {
                 $scope.name = 'pablo';
                 $scope.sourceImgBg = 'img/bg_cto.png';
@@ -180,7 +180,7 @@ angular.module('app')
 
         }
 
-        $scope.changeData(id);
+        $scope.changeData(id);*/
 
         $scope.gotoConcept = function() {
 
