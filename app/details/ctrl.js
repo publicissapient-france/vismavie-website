@@ -7,28 +7,8 @@ angular.module('app')
 
         $scope.changeData = function(id) {
 
-            console.log(angular.element('#video'));
-            if (id == 1) {
-                $scope.name = 'pablo';
-                $scope.expert = 'L’EXPERT';
-                $scope.sourceImgBg = 'img/bg_cto.png';
-                $scope.sourceImgBgMini = 'img/bg_cto_560.png';
-                $scope.phraseConsulte = 'I am the CTO bitch !';
-                $scope.nomConsulte = 'Pablo Lopez, CTO';
-                $scope.apprenti = 'L’APPRENTI';
-                $scope.phraseConsultant = '50 kilos tout mouillé';
-                $scope.nomConsultant = 'Alexandre Hebert, Consultant';
-                $scope.rond1 = 'img/alexandre_hebert.png';
-                $scope.quote1 = 'Une journée haute en chaleur, ponctuée par de nombreux déplacements aux quatres coins du siège, et durant laquelle j’ai pu suivre partout un CTO très volubile qui n’a pas hésité à répondre à toutes mes questions, en me faisant par la même occasion découvrir son métier des caves au grenier : des difficultés qu’il rencontre au quotidien jusqu’aux aspects les plus passionnants ! C T Ouf !';
-                $scope.plus1 = '- Variété des responsabilités';
-                $scope.plus2 = '- Variété des tâches';
-                $scope.plus3 = '- Force de proposition du CTO quant aux choix des missions qui pourraient intéresser les Xebians';
-                $scope.moins1 = '- La température ( pas celle de mon CTO, celle de l’air : vive la canicule ;) )';
-                $scope.moins2 = '- Les relances par mail';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
-            }
 
-            else if (id == 2) {
+            if (id == 1) {
                 $scope.name = 'luc';
                 $scope.sourceImgBg = 'img/bg_ceo.png';
                 $scope.sourceImgBgMini = 'img/bg_ceo_560.png';
@@ -46,8 +26,28 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
+            }
+
+            else if (id == 2) {
+                $scope.name = 'pablo';
+                $scope.expert = 'L’EXPERT';
+                $scope.sourceImgBg = 'img/bg_cto.png';
+                $scope.sourceImgBgMini = 'img/bg_cto_560.png';
+                $scope.phraseConsulte = 'I am the CTO bitch !';
+                $scope.nomConsulte = 'Pablo Lopez, CTO';
+                $scope.apprenti = 'L’APPRENTI';
+                $scope.phraseConsultant = '50 kilos tout mouillé';
+                $scope.nomConsultant = 'Alexandre Hebert, Consultant';
+                $scope.rond1 = 'img/alexandre_hebert.png';
+                $scope.quote1 = 'Une journée haute en chaleur, ponctuée par de nombreux déplacements aux quatres coins du siège, et durant laquelle j’ai pu suivre partout un CTO très volubile qui n’a pas hésité à répondre à toutes mes questions, en me faisant par la même occasion découvrir son métier des caves au grenier : des difficultés qu’il rencontre au quotidien jusqu’aux aspects les plus passionnants ! C T Ouf !';
+                $scope.plus1 = '- Variété des responsabilités';
+                $scope.plus2 = '- Variété des tâches';
+                $scope.plus3 = '- Force de proposition du CTO quant aux choix des missions qui pourraient intéresser les Xebians';
+                $scope.moins1 = '- La température ( pas celle de mon CTO, celle de l’air : vive la canicule ;) )';
+                $scope.moins2 = '- Les relances par mail';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
             }
 
             else if (id == 3) {
@@ -68,7 +68,7 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
 
@@ -90,7 +90,7 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
 
@@ -112,7 +112,7 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
 
@@ -134,7 +134,7 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
 
@@ -156,7 +156,7 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
 
@@ -178,7 +178,7 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
 
@@ -200,11 +200,11 @@ angular.module('app')
                 $scope.moins1 = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
-                document.getElementById('video').src = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
 
-        }
+        };
 
         $scope.changeData(id);
 
@@ -222,3 +222,28 @@ angular.module('app')
 
 
     }]);
+
+
+/*
+angular.module('app')
+    .factory('MonService', [function () {
+        var people = [
+            {
+                name: 'nadia',
+                sourceImgBg: 'img/bg_daf.png',
+                sourceImgBgMini: 'img/bg_daf_560.png'
+            },
+            {
+                name: 'asdine',
+                sourceImgBg: 'img/bg_daf.png',
+                sourceImgBgMini: 'img/bg_daf_560.png'
+            }
+        ];
+
+        return {
+            get: function (id) {
+                return people[id];
+            }
+        };
+
+    }]);**/

@@ -181,7 +181,7 @@ angular.module('app')
         }
 
         $scope.changeData(id);*/
-
+        $scope.isLink = true;
         $scope.gotoConcept = function() {
 
                 $location.hash('concept');
