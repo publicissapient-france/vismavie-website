@@ -8,7 +8,7 @@ angular.module('app')
         $scope.changeData = function(id) {
 
 
-            if (id == 1) {
+            if (id == 'CEO') {
                 $scope.name = 'luc';
                 $scope.sourceImgBg = 'img/bg_ceo.png';
                 $scope.sourceImgBgMini = 'img/bg_ceo_560.png';
@@ -30,7 +30,7 @@ angular.module('app')
 
             }
 
-            else if (id == 2) {
+            else if (id == 'CTO') {
                 $scope.name = 'pablo';
                 $scope.expert = 'L’EXPERT';
                 $scope.sourceImgBg = 'img/bg_cto.png';
@@ -50,7 +50,7 @@ angular.module('app')
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
             }
 
-            else if (id == 3) {
+            else if (id == 'Dir. Marketing') {
                 $scope.name = 'anne';
                 $scope.sourceImgBg = 'img/bg_marketing_black.png';
                 $scope.sourceImgBgMini = 'img/bg_marketing_560.png';
@@ -72,7 +72,7 @@ angular.module('app')
 
             }
 
-            else if (id == 4) {
+            else if (id == 'Responsable du Recrutement') {
                 $scope.name = 'laetitia';
                 $scope.sourceImgBg = 'img/bg_recrutement.png';
                 $scope.sourceImgBgMini = 'img/bg_recrutement_560.png';
@@ -94,7 +94,7 @@ angular.module('app')
 
             }
 
-            else if (id == 5) {
+            else if (id == 'COO') {
                 $scope.name = 'christophe';
                 $scope.sourceImgBg = 'img/bg_coo.png';
                 $scope.sourceImgBgMini = 'img/bg_coo_560.png';
@@ -116,7 +116,7 @@ angular.module('app')
 
             }
 
-            else if (id == 6) {
+            else if (id == 'Manager') {
                 $scope.name = 'jean-louis';
                 $scope.sourceImgBg = 'img/bg_manager.png';
                 $scope.sourceImgBgMini = 'img/bg_manager_560.png';
@@ -138,7 +138,7 @@ angular.module('app')
 
             }
 
-            else if (id == 7) {
+            else if (id == 'Dir. Commerciale') {
                 $scope.name = 'estelle';
                 $scope.sourceImgBg = 'img/bg_commerce.png';
                 $scope.sourceImgBgMini = 'img/bg_commerce_560.png';
@@ -160,7 +160,7 @@ angular.module('app')
 
             }
 
-            else if (id == 8) {
+            else if (id == 'DAF') {
                 $scope.name = 'nadia';
                 $scope.sourceImgBg = 'img/bg_daf.png';
                 $scope.sourceImgBgMini = 'img/bg_daf_560.png';
@@ -182,7 +182,7 @@ angular.module('app')
 
             }
 
-            else if (id == 9) {
+            else if (id == 'Responsable Xebia Studio') {
                 $scope.name = 'thibaud';
                 $scope.sourceImgBg = 'img/bg_studio.png';
                 $scope.sourceImgBgMini = 'img/bg_studio_560.png';
