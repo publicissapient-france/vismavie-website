@@ -77,7 +77,7 @@ angular.module('app')
                 $scope.sourceImgBg = 'img/bg_recrutement.png';
                 $scope.sourceImgBgMini = 'img/bg_recrutement_560.png';
                 $scope.phraseConsulte = 'Une chasseuse sachant chasser…';
-                $scope.nomConsulte = 'Laetitia, Responsable du recrutement';
+                $scope.nomConsulte = 'Laetitia Janné, Responsable du recrutement';
                 $scope.phraseConsultant = 'La puissance de la funk !';
                 $scope.nomConsultant = 'Jeremy Vinai, Consultant';
                 $scope.expert = 'L’EXPERTE';
