@@ -12,7 +12,7 @@ angular.module('app')
                 $scope.name = 'luc';
                 $scope.sourceImgBg = 'img/bg_ceo.png';
                 $scope.sourceImgBgMini = 'img/bg_ceo_560.png';
-                $scope.phraseConsulte = 'I am the CEO bitch !';
+                $scope.phraseConsulte = 'Phrase drole';
                 $scope.nomConsulte = 'Luc Legardeur, CEO';
                 $scope.expert = 'L’EXPERT';
                 $scope.apprenti = 'L’APPRENTIE';
@@ -35,7 +35,7 @@ angular.module('app')
                 $scope.expert = 'L’EXPERT';
                 $scope.sourceImgBg = 'img/bg_cto.png';
                 $scope.sourceImgBgMini = 'img/bg_cto_560.png';
-                $scope.phraseConsulte = 'I am the CTO bitch !';
+                $scope.phraseConsulte = 'Hello je suis le CTO';
                 $scope.nomConsulte = 'Pablo Lopez, CTO';
                 $scope.apprenti = 'L’APPRENTI';
                 $scope.phraseConsultant = '50 kilos tout mouillé';
@@ -54,7 +54,7 @@ angular.module('app')
                 $scope.name = 'anne';
                 $scope.sourceImgBg = 'img/bg_marketing_black.png';
                 $scope.sourceImgBgMini = 'img/bg_marketing_560.png';
-                $scope.phraseConsulte = 'Market Queen';
+                $scope.phraseConsulte = 'Du violet du violet ... Je veux du violet partout !!';
                 $scope.nomConsulte = 'Anne Beauchart, Directrice Marketing';
                 $scope.expert = 'L’EXPERTE';
                 $scope.apprenti = 'L’APPRENTIE';
@@ -98,14 +98,14 @@ angular.module('app')
                 $scope.name = 'christophe';
                 $scope.sourceImgBg = 'img/bg_coo.png';
                 $scope.sourceImgBgMini = 'img/bg_coo_560.png';
-                $scope.phraseConsulte = 'I am the COO bitch !';
+                $scope.phraseConsulte = 'Délégation idoine';
                 $scope.nomConsulte = 'Christophe Heubes, COO';
                 $scope.phraseConsultant = 'Opérations TEKNIKE';
                 $scope.expert = 'L’EXPERT';
                 $scope.apprenti = 'L’APPRENTI';
                 $scope.nomConsultant = 'Jéremie Martinez, Consultant';
                 $scope.rond1 = 'img/jeremie_martinez.png';
-                $scope.quote1 = 'Maintenant, je mène à bien toutes les opérations !';
+                $scope.quote1 = 'Opérations !';
                 $scope.plus1 = 'Plus';
                 $scope.plus2 = 'Plus';
                 $scope.plus3 = 'Plus';
