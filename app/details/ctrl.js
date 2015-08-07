@@ -12,20 +12,19 @@ angular.module('app')
                 $scope.name = 'luc';
                 $scope.sourceImgBg = 'img/bg_ceo.png';
                 $scope.sourceImgBgMini = 'img/bg_ceo_560.png';
-                $scope.phraseConsulte = 'Phrase drole';
+                $scope.phraseConsulte = 'Tiens prends les clefs et amuse toi bien !';
                 $scope.nomConsulte = 'Luc Legardeur, Président';
                 $scope.expert = 'L’EXPERT';
                 $scope.apprenti = 'L’APPRENTIE';
                 $scope.phraseConsultant = 'C’est qui le patron ???';
                 $scope.nomConsultant = 'Laurène Vol, Consultante';
                 $scope.rond1 = 'img/laurene_vol.png';
-                $scope.quote1 = 'Journée enrichissante, passionante, beaucoup de moment clés. Participation à un comité de direction : très instructif. En conclusion : C’est pas moi le patron, et c’est très bien comme ça !';
-                $scope.plus1 = '- Le côté touche à tout';
-                $scope.plus2 = '- Apprendre aux Xebians qu’à apprendre d’eux';
-                $scope.plus3 = '';
-                $scope.moins1 = '- Peu de temps pour creuser un projet';
-                $scope.moins2 = '- Beaucoup de choses à gérer';
-                $scope.moins3 = '';
+                $scope.quote1 = 'Journée enrichissante, passionante, beaucoup de moment clés. Participation à un comité de direction : très instructif. Lorsque les « vis ma vie » ont été annoncés, je me suis dit : « voilà une bonne opportunité d’en apprendre d’avantage sur un métier un peu mystique ». Me voilà donc quelques minutes plus tard à me jeter sur la feuille de CEO, en agrémentant mon nom de smileys, histoire de mettre toutes les chances de mon côté.En découvrant la répartition, et après avoir lancé un « c’est qui le patron ??!! » de circonstance, j’ai commencé à imaginer une journée de folie, à courir dans tous les sens en prenant des décisions super importantes. Un peu comme dans les séries américaines où 10 assistants courent derrière le patron en lui faisant signer des papiers entre 2 meetings ultra confidentiels.';
+                $scope.role_plus = 'Le côté touche à tout.';
+                $scope.role_moins = 'Je trouverais ça frustrant de ne pouvoir rentrer à fond dasn les sujets, faute de temps et du nombre de choses à gérer.';
+                $scope.gratifiante = 'Le partage de la bonne parole.';
+                $scope.ingrate = 'Peu de temps pour creuser un projet.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }
@@ -42,11 +41,10 @@ angular.module('app')
                 $scope.nomConsultant = 'Alexandre Hebert, Consultant';
                 $scope.rond1 = 'img/alexandre_hebert.png';
                 $scope.quote1 = 'Une journée haute en chaleur, ponctuée par de nombreux déplacements aux quatres coins du siège, et durant laquelle j’ai pu suivre partout un CTO très volubile qui n’a pas hésité à répondre à toutes mes questions, en me faisant par la même occasion découvrir son métier des caves au grenier : des difficultés qu’il rencontre au quotidien jusqu’aux aspects les plus passionnants ! C T Ouf ! Heureusement pour moi, vis ma vie ne veut pas dire "Prend ma place" ! Pfiou !';
-                $scope.plus1 = '- Variété des responsabilités';
-                $scope.plus2 = '- Variété des tâches';
-                $scope.plus3 = '- Force de proposition du CTO quant aux choix des missions qui pourraient intéresser les Xebians';
-                $scope.moins1 = '- La température ( pas celle de mon CTO, celle de l’air : vive la canicule ;) )';
-                $scope.moins2 = '- Les relances par mail';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
             }
 
@@ -62,10 +60,10 @@ angular.module('app')
                 $scope.nomConsultant = 'Emmanuel Sciara, Coach Agile';
                 $scope.rond1 = 'img/emmanuel_sciara.png';
                 $scope.quote1 = 'Beaucoup de responsabilité, placement des consultant selon leur humeur, envie, très difficile, RESPECT MAN !';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
+                $scope.role_plus = 'Plus';
+                $scope.role_moins = 'Plus';
+                $scope.gratifiante = 'Plus';
+                $scope.ingrate = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
@@ -84,10 +82,10 @@ angular.module('app')
                 $scope.apprenti = 'L’APPRENTI';
                 $scope.rond1 = 'img/jeremy_vinai.png';
                 $scope.quote1 = '"Jeremy Vinai société Xebia bonjour." Une journée très agréable autour du metier de responsable recrutement où j’ai pu voir comment gérer la recherche de profils, gérer l’organisation de l’équipe recrutement, entretenir le contact avec les futurs potentiels recrutés et s’occuper des nouveaux Xebians et de leur bonne intégration.Beaucoup d’intéraction en interne comme avec l’exterieur !';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
+                $scope.role_plus = 'Plus';
+                $scope.role_moins = 'Plus';
+                $scope.gratifiante = 'Plus';
+                $scope.ingrate = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
@@ -106,10 +104,10 @@ angular.module('app')
                 $scope.nomConsultant = 'Sameh Ben Fredj, Consultante';
                 $scope.rond1 = 'img/sameh_ben_fredj.png';
                 $scope.quote1 = 'Le marketing, maintenant JE CONNAIS !';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
+                $scope.role_plus = 'Plus';
+                $scope.role_moins = 'Plus';
+                $scope.gratifiante = 'Plus';
+                $scope.ingrate = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
@@ -129,10 +127,10 @@ angular.module('app')
                 $scope.nomConsultant = 'Jéremie Martinez, Consultant';
                 $scope.rond1 = 'img/jeremie_martinez.png';
                 $scope.quote1 = 'Opérations !';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
+                $scope.role_plus = 'Plus';
+                $scope.role_moins = 'Plus';
+                $scope.gratifiante = 'Plus';
+                $scope.ingrate = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
@@ -151,10 +149,10 @@ angular.module('app')
                 $scope.nomConsultant = 'Antoine Michaud, Consultant';
                 $scope.rond1 = 'img/antoine_michaud.png';
                 $scope.quote1 = 'Manager un jour, manager pour toujours !';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
+                $scope.role_plus = 'Plus';
+                $scope.role_moins = 'Plus';
+                $scope.gratifiante = 'Plus';
+                $scope.ingrate = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
@@ -173,10 +171,10 @@ angular.module('app')
                 $scope.nomConsultant = 'Benjamin Lacroix, Consultant';
                 $scope.rond1 = 'img/benjamin_lacroix.png';
                 $scope.quote1 = 'Journée de ouf ! Je kiff négocier chez le client ! Je fais faire une reconversion !';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
+                $scope.role_plus = 'Plus';
+                $scope.role_moins = 'Plus';
+                $scope.gratifiante = 'Plus';
+                $scope.ingrate = 'Moins';
                 $scope.moins2 = 'Moins';
                 $scope.moins3 = 'Moins';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
@@ -195,12 +193,10 @@ angular.module('app')
                 $scope.nomConsultant = 'Clément Heliou, Consultant';
                 $scope.rond1 = 'img/clement_heliou.png';
                 $scope.quote1 = 'Justification, fric, pognon, chic ! La DAF une fonction, un métier, une passion, être dévoué !';
-                $scope.plus1 = 'Plus';
-                $scope.plus2 = 'Plus';
-                $scope.plus3 = 'Plus';
-                $scope.moins1 = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.role_plus = 'Plus';
+                $scope.role_moins = 'Plus';
+                $scope.gratifiante = 'Plus';
+                $scope.ingrate = 'Moins';
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
 
             }

@@ -43,14 +43,69 @@
         </div>
         <div class="quote">
             <p>{{quote1}}<br/></p>
-
         </div>
-
-    <a href="http://blog.xebia.fr" target="_blank" class="md-raised md-primary voir_plus">Lire en entier</a>
-
 </div>
 
-<div class="plus_moins center">
+<div class="ccl center">
+    <h3>{{ccl}}</h3>
+    <a href="http://blog.xebia.fr" target="_blank" class="md-raised md-primary voir_plus">Lire en entier</a>
+</div>
+
+<div class="questions center">
+
+<div class="tabsdemoDynamicHeight" ng-app="MyApp">
+    <md-content class="md-padding bloc_question" style="">
+        <md-tabs md-dynamic-height="" md-border-bottom="">
+            <md-tab class="question" label="Quel est l'aspect du rôle qui t'a le plus plu ?">
+                <md-content class="md-padding">
+
+                    <p>{{role_plus}}</p>
+                </md-content>
+            </md-tab>
+
+        </md-tabs>
+    </md-content>
+    <md-content class="md-padding bloc_question" style="">
+        <md-tabs md-dynamic-height="" md-border-bottom="">
+            <md-tab class="question" label="Quel est l'aspect du rôle qui t'a le moins plu ?">
+                <md-content class="md-padding">
+
+                    <p>{{role_moins}}</p>
+                </md-content>
+            </md-tab>
+
+        </md-tabs>
+    </md-content>
+</div>
+
+
+    <div class="tabsdemoDynamicHeight" ng-app="MyApp">
+        <md-content class="md-padding bloc_question" style="">
+            <md-tabs md-dynamic-height="" md-border-bottom="">
+                <md-tab class="question" label="Quelle est selon toi la tâche la plus gratifiante ?">
+                    <md-content class="md-padding">
+
+                        <p>{{gratifiante}}</p>
+                    </md-content>
+                </md-tab>
+
+            </md-tabs>
+        </md-content>
+        <md-content class="md-padding bloc_question" style="">
+            <md-tabs md-dynamic-height="" md-border-bottom="">
+                <md-tab class="question" label="Quelle est selon toi la tâche la plus ingrate ?">
+                    <md-content class="md-padding">
+
+                        <p>{{ingrate}}</p>
+                    </md-content>
+                </md-tab>
+
+            </md-tabs>
+        </md-content>
+    </div>
+</div>
+
+<!--<div class="plus_moins center">
     <div class="plus">
         <img src="img/plus.png" class="img_plus_moins"/>
         <ul>
@@ -67,7 +122,7 @@
             <li>{{moins3}}</li>
         </ul>
     </div>
-</div>
+</div>-->
 
 
 <menu-video></menu-video>
