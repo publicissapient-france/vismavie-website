@@ -21,7 +21,7 @@ angular.module('app')
                 $scope.rond1 = 'img/laurene_vol.png';
                 $scope.quote1 = 'Journée enrichissante, passionante, beaucoup de moment clés. Participation à un comité de direction : très instructif. Lorsque les « vis ma vie » ont été annoncés, je me suis dit : « voilà une bonne opportunité d’en apprendre d’avantage sur un métier un peu mystique ». Me voilà donc quelques minutes plus tard à me jeter sur la feuille de CEO, en agrémentant mon nom de smileys, histoire de mettre toutes les chances de mon côté.En découvrant la répartition, et après avoir lancé un « c’est qui le patron ??!! » de circonstance, j’ai commencé à imaginer une journée de folie, à courir dans tous les sens en prenant des décisions super importantes. Un peu comme dans les séries américaines où 10 assistants courent derrière le patron en lui faisant signer des papiers entre 2 meetings ultra confidentiels.';
                 $scope.role_plus = 'Le côté touche à tout.';
-                $scope.role_moins = 'Je trouverais ça frustrant de ne pouvoir rentrer à fond dasn les sujets, faute de temps et du nombre de choses à gérer.';
+                $scope.role_moins = 'Je trouverais ça frustrant de ne pouvoir rentrer à fond dans les sujets, faute de temps et du nombre de choses à gérer.';
                 $scope.gratifiante = 'Le partage de la bonne parole.';
                 $scope.ingrate = 'Peu de temps pour creuser un projet.';
                 $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
