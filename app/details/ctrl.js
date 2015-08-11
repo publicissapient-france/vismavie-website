@@ -26,6 +26,9 @@ angular.module('app')
                 $scope.ingrate = 'Peu de temps pour creuser un projet.';
                 $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/embed/2twefLKkW0o&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/embed/2twefLKkW0o";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/embed/2twefLKkW0o";
 
             }
 
