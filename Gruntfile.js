@@ -156,7 +156,9 @@ module.exports = function (grunt) {
             options: {
                 base: 'dist'
             },
-            src: '**/*'
+            target: {
+                src: '**/*'
+            }
         }
 
     });
@@ -174,6 +176,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', ['sass', 'writefile', 'connect:livereload', 'watch']);
     grunt.registerTask('dist', ['sass', 'clean:dist', 'cssmin', 'uglify', 'concat', 'writefile:prod', 'copy:dist']);
-    grunt.registerTask('deploy', ['dist', 'gh-pages']);
+    grunt.registerTask('deploy', ['dist', 'gh-pages:target']);
 
 };
