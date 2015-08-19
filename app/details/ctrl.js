@@ -25,10 +25,11 @@ angular.module('app')
                 $scope.gratifiante = 'Le partage de la bonne parole.';
                 $scope.ingrate = 'Peu de temps pour creuser un projet.';
                 $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/embed/2twefLKkW0o&hashtags=XebianVMV&via=XebiaFr";
-                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/embed/2twefLKkW0o";
-                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/embed/2twefLKkW0o";
+                $scope.video = 'https://www.youtube.com/v/D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
 
             }
 
@@ -48,7 +49,12 @@ angular.module('app')
                 $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
                 $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
                 $scope.ingrate = 'Les relances par mail.';
-                $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
+                $scope.video = 'https://www.youtube.com/v/qy82p2sr2mQ&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&index=2';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
             else if (id == 'Dir. Xebia Studio') {
@@ -63,14 +69,16 @@ angular.module('app')
                 $scope.nomConsultant = 'Emmanuel Sciara, Coach Agile';
                 $scope.rond1 = 'img/emmanuel_sciara.png';
                 $scope.quote1 = 'Beaucoup de responsabilité, placement des consultant selon leur humeur, envie, très difficile, RESPECT MAN !';
-                $scope.role_plus = 'Plus';
-                $scope.role_moins = 'Plus';
-                $scope.gratifiante = 'Plus';
-                $scope.ingrate = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
             else if (id == 'Dir. Recrutement') {
@@ -85,14 +93,16 @@ angular.module('app')
                 $scope.apprenti = 'L’APPRENTI';
                 $scope.rond1 = 'img/jeremy_vinai.png';
                 $scope.quote1 = '"Jeremy Vinai société Xebia bonjour." Une journée très agréable autour du metier de responsable recrutement où j’ai pu voir comment gérer la recherche de profils, gérer l’organisation de l’équipe recrutement, entretenir le contact avec les futurs potentiels recrutés et s’occuper des nouveaux Xebians et de leur bonne intégration.Beaucoup d’intéraction en interne comme avec l’exterieur !';
-                $scope.role_plus = 'Plus';
-                $scope.role_moins = 'Plus';
-                $scope.gratifiante = 'Plus';
-                $scope.ingrate = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
             else if (id == 'Dir. Marketing') {
@@ -107,14 +117,16 @@ angular.module('app')
                 $scope.nomConsultant = 'Sameh Ben Fredj, Consultante';
                 $scope.rond1 = 'img/sameh_ben_fredj.png';
                 $scope.quote1 = 'Le marketing, maintenant JE CONNAIS !';
-                $scope.role_plus = 'Plus';
-                $scope.role_moins = 'Plus';
-                $scope.gratifiante = 'Plus';
-                $scope.ingrate = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
 
@@ -130,14 +142,16 @@ angular.module('app')
                 $scope.nomConsultant = 'Jéremie Martinez, Consultant';
                 $scope.rond1 = 'img/jeremie_martinez.png';
                 $scope.quote1 = 'Opérations !';
-                $scope.role_plus = 'Plus';
-                $scope.role_moins = 'Plus';
-                $scope.gratifiante = 'Plus';
-                $scope.ingrate = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
             else if (id == 'Manager') {
@@ -152,14 +166,16 @@ angular.module('app')
                 $scope.nomConsultant = 'Antoine Michaud, Consultant';
                 $scope.rond1 = 'img/antoine_michaud.png';
                 $scope.quote1 = 'Manager un jour, manager pour toujours !';
-                $scope.role_plus = 'Plus';
-                $scope.role_moins = 'Plus';
-                $scope.gratifiante = 'Plus';
-                $scope.ingrate = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
             else if (id == 'Dir. Commerciale') {
@@ -174,14 +190,16 @@ angular.module('app')
                 $scope.nomConsultant = 'Benjamin Lacroix, Consultant';
                 $scope.rond1 = 'img/benjamin_lacroix.png';
                 $scope.quote1 = 'Journée de ouf ! Je kiff négocier chez le client ! Je fais faire une reconversion !';
-                $scope.role_plus = 'Plus';
-                $scope.role_moins = 'Plus';
-                $scope.gratifiante = 'Plus';
-                $scope.ingrate = 'Moins';
-                $scope.moins2 = 'Moins';
-                $scope.moins3 = 'Moins';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
             else if (id == 'DAF') {
@@ -196,12 +214,16 @@ angular.module('app')
                 $scope.nomConsultant = 'Clément Heliou, Consultant';
                 $scope.rond1 = 'img/clement_heliou.png';
                 $scope.quote1 = 'Justification, fric, pognon, chic ! La DAF une fonction, un métier, une passion, être dévoué !';
-                $scope.role_plus = 'Plus';
-                $scope.role_moins = 'Plus';
-                $scope.gratifiante = 'Plus';
-                $scope.ingrate = 'Moins';
+                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.ingrate = 'Les relances par mail.';
+                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
                 $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.blog_article = "http://blog.xebia.fr";
             }
 
 
