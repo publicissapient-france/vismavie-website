@@ -7,3 +7,6 @@ dist
 .idea
 index.html
 .sass-cache
+.grunt
+.DS_Store
+
