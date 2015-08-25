@@ -29,7 +29,7 @@ angular.module('app')
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/VMV-President-Xebia&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/VMV-President-Xebia";
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/VMV-President-Xebia";
-                $scope.blog_article = "http://blog.xebia.fr";
+                $scope.blog_article = "http://blog.xebia.fr/2015/08/25/vis-ma-vie-episode-1-laurene-prend-les-cles-de-xebia/";
 
             }
 
