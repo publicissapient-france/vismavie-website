@@ -154,7 +154,7 @@ angular.module('app')
                 $scope.blog_article = "http://blog.xebia.fr";
             }
 
-            else if (id == 'Manager') {
+            else if (id == 'Consultant Manager') {
                 $scope.name = 'jean-louis';
                 $scope.sourceImgBg = 'img/bg_manager.png';
                 $scope.sourceImgBgMini = 'img/bg_manager_560.png';
