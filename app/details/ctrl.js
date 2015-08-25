@@ -21,7 +21,7 @@ angular.module('app')
                 $scope.rond1 = 'img/laurene_vol.png';
                 $scope.quote1 = 'Journée démarrée, enchaînée et terminée sur les chapeaux de roues. Milles choses à faire, à voir et à discuter, toutes plus passionnantes et différentes les unes que les autres. Métier un peu ingrat que celui de CEO : on a pas l’impression de produire grand chose, mais ça ne nous empêche pas de courir dans tous les sens toute la journée et de sortir vidé. Un peu comme un coach agile finalement, mais sans les post-it !';
                 $scope.role_plus = 'Le côté touche à tout.';
-                $scope.role_moins = 'Je trouverais ça frustrant de ne pouvoir rentrer à fond dans les sujets, faute de temps et du nombre de choses à gérer.';
+                $scope.role_moins = 'Je trouverais ça frustrant de ne pouvoir approfondir les sujets, faute de temps et du nombre d’éléments à gérer.';
                 $scope.gratifiante = 'Le partage de la bonne parole.';
                 $scope.ingrate = 'Peu de temps pour creuser un projet.';
                 $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
