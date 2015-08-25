@@ -25,7 +25,7 @@ angular.module('app')
                 $scope.gratifiante = 'Le partage de la bonne parole.';
                 $scope.ingrate = 'Peu de temps pour creuser un projet.';
                 $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-                $scope.video = 'https://www.youtube.com/embed/KsscgrEtfdQ';
+                $scope.video = 'https://www.youtube.com/embed/KsscgrEtfdQ?rel=0';
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/VMV-President-Xebia&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/VMV-President-Xebia";
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/VMV-President-Xebia";
