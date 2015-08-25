@@ -19,16 +19,16 @@ angular.module('app')
                 $scope.phraseConsultant = 'C’est qui le patron ???';
                 $scope.nomConsultant = 'Laurène Vol, Consultante';
                 $scope.rond1 = 'img/laurene_vol.png';
-                $scope.quote1 = 'Journée enrichissante, passionante, beaucoup de moment clés. Participation à un comité de direction : très instructif. Lorsque les « vis ma vie » ont été annoncés, je me suis dit : « voilà une bonne opportunité d’en apprendre d’avantage sur un métier un peu mystique ». Me voilà donc quelques minutes plus tard à me jeter sur la feuille de CEO, en agrémentant mon nom de smileys, histoire de mettre toutes les chances de mon côté.En découvrant la répartition, et après avoir lancé un « c’est qui le patron ??!! » de circonstance, j’ai commencé à imaginer une journée de folie, à courir dans tous les sens en prenant des décisions super importantes. Un peu comme dans les séries américaines où 10 assistants courent derrière le patron en lui faisant signer des papiers entre 2 meetings ultra confidentiels.';
+                $scope.quote1 = 'Journée démarrée, enchaînée et terminée sur les chapeaux de roues. Milles choses à faire, à voir et à discuter, toutes plus passionnantes et différentes les unes que les autres. Métier un peu ingrat que celui de CEO : on a pas l’impression de produire grand chose, mais ça ne nous empêche pas de courir dans tous les sens toute la journée et de sortir vidé. Un peu comme un coach agile finalement, mais sans les post-it !';
                 $scope.role_plus = 'Le côté touche à tout.';
                 $scope.role_moins = 'Je trouverais ça frustrant de ne pouvoir rentrer à fond dans les sujets, faute de temps et du nombre de choses à gérer.';
                 $scope.gratifiante = 'Le partage de la bonne parole.';
                 $scope.ingrate = 'Peu de temps pour creuser un projet.';
                 $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-                $scope.video = 'https://www.youtube.com/v/D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48';
-                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.video = 'https://www.youtube.com/v/KsscgrEtfdQ&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&index=1';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/VMV-President-Xebia&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/VMV-President-Xebia";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/VMV-President-Xebia";
                 $scope.blog_article = "http://blog.xebia.fr";
 
             }
