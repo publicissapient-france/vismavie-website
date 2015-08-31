@@ -44,16 +44,16 @@ angular.module('app')
                 $scope.phraseConsultant = '50 kilos tout mouillé';
                 $scope.nomConsultant = 'Alexandre Hebert, Consultant';
                 $scope.rond1 = 'img/alexandre_hebert.png';
-                $scope.quote1 = 'Une journée haute en chaleur, ponctuée par de nombreux déplacements aux quatres coins du siège, et durant laquelle j’ai pu suivre partout un CTO très volubile qui n’a pas hésité à répondre à toutes mes questions, en me faisant par la même occasion découvrir son métier des caves au grenier : des difficultés qu’il rencontre au quotidien jusqu’aux aspects les plus passionnants ! C T Ouf ! Heureusement pour moi, vis ma vie ne veut pas dire "Prend ma place" ! Pfiou !';
-                $scope.role_plus = 'La variété des responsabilités / tâches.';
+                $scope.quote1 = 'Une journée haute en chaleur, ponctuée par de nombreux déplacements aux quatres coins du siège, et durant laquelle j’ai pu suivre partout un CTO très volubile qui n’a pas hésité à répondre à toutes mes questions, en me faisant par la même occasion découvrir son métier des caves au grenier : des difficultés qu’il rencontre au quotidien jusqu’aux aspects les plus passionnants ! C T Ouf !';
+                $scope.role_plus = 'La variété des responsabilités et des tâches.';
                 $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-                $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
+                $scope.gratifiante = 'La force de proposition du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
                 $scope.ingrate = 'Les relances par mail.';
-                $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-                $scope.video = 'https://www.youtube.com/v/qy82p2sr2mQ&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&index=2';
-                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                $scope.ccl = 'Heureusement pour moi, vis ma vie ne veut pas dire "Prends ma place" ! Pfiou !'
+                $scope.video = 'https://www.youtube.com/embed/qy82p2sr2mQ';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/embed/qy82p2sr2mQ&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/embed/qy82p2sr2mQ";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/embed/qy82p2sr2mQ";
                 $scope.blog_article = "http://blog.xebia.fr";
             }
 
