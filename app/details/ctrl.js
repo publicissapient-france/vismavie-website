@@ -51,9 +51,9 @@ angular.module('app')
                 $scope.ingrate = 'Les relances par mail.';
                 $scope.ccl = 'Heureusement pour moi, vis ma vie ne veut pas dire "Prends ma place" ! Pfiou !'
                 $scope.video = 'https://www.youtube.com/embed/qy82p2sr2mQ';
-                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/embed/qy82p2sr2mQ&hashtags=XebianVMV&via=XebiaFr";
-                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/embed/qy82p2sr2mQ";
-                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/embed/qy82p2sr2mQ";
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/VMV-CTO-Xebia&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/VMV-CTO-Xebia";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-CTO-Xebia";
                 $scope.blog_article = "http://blog.xebia.fr";
             }
 
