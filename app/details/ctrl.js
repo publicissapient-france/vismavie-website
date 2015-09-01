@@ -46,7 +46,7 @@ angular.module('app')
                 $scope.rond1 = 'img/alexandre_hebert.png';
                 $scope.quote1 = 'Une journée haute en chaleur, ponctuée par de nombreux déplacements aux quatres coins du siège, et durant laquelle j’ai pu suivre partout un CTO très volubile qui n’a pas hésité à répondre à toutes mes questions, en me faisant par la même occasion découvrir son métier des caves au grenier : des difficultés qu’il rencontre au quotidien jusqu’aux aspects les plus passionnants ! C T Ouf !';
                 $scope.role_plus = 'La variété des responsabilités et des tâches.';
-                $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
+                $scope.role_moins = 'Peu de temps pour réellement approndir les sujets qui nous tiennent à coeur.';
                 $scope.gratifiante = 'La force de proposition du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
                 $scope.ingrate = 'Les relances par mail.';
                 $scope.ccl = 'Heureusement pour moi, vis ma vie ne veut pas dire "Prends ma place" ! Pfiou !'
