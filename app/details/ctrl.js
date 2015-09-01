@@ -54,7 +54,7 @@ angular.module('app')
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/VMV-CTO-Xebia&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/VMV-CTO-Xebia";
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-CTO-Xebia";
-                $scope.blog_article = "http://blog.xebia.fr";
+                $scope.blog_article = "http://blog.xebia.fr/2015/09/01/vis-ma-vie-episode-2-alexandre-cto-dun-jour/";
             }
 
             else if (id == 'Dir. Xebia Studio') {
