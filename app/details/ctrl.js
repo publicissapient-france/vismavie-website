@@ -50,36 +50,36 @@ angular.module('app')
                 $scope.gratifiante = 'La force de proposition du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
                 $scope.ingrate = 'Les relances par mail.';
                 $scope.ccl = 'Heureusement pour moi, vis ma vie ne veut pas dire "Prends ma place" ! Pfiou !'
-                $scope.video = 'https://www.youtube.com/embed/qy82p2sr2mQ';
+                $scope.video = 'https://www.youtube.com/embed/qy82p2sr2mQ?rel=0';
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/VMV-CTO-Xebia&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/VMV-CTO-Xebia";
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-CTO-Xebia";
                 $scope.blog_article = "http://blog.xebia.fr/2015/09/01/vis-ma-vie-episode-2-alexandre-cto-dun-jour/";
             }
 
-            // else if (id == 'Dir. Xebia Studio') {
-            //     $scope.name = 'thibaud';
-            //     $scope.sourceImgBg = 'img/bg_studio.png';
-            //     $scope.sourceImgBgMini = 'img/bg_studio_560.png';
-            //     $scope.phraseConsulte = 'Le forfait, oui, mais seulement au ski !';
-            //     $scope.nomConsulte = 'Thibaud Cavin, Responsable Xebia Studio';
-            //     $scope.phraseConsultant = 'A grand, grand et demi ?';
-            //     $scope.expert = 'L’EXPERT';
-            //     $scope.apprenti = 'L’APPRENTI';
-            //     $scope.nomConsultant = 'Emmanuel Sciara, Coach Agile';
-            //     $scope.rond1 = 'img/emmanuel_sciara.png';
-            //     $scope.quote1 = 'Beaucoup de responsabilité, placement des consultant selon leur humeur, envie, très difficile, RESPECT MAN !';
-            //     $scope.role_plus = 'La variété des responsabilités / tâches.';
-            //     $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-            //     $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
-            //     $scope.ingrate = 'Les relances par mail.';
-            //     $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-            //     $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.blog_article = "http://blog.xebia.fr";
-            // }
+            else if (id == 'Dir. Xebia Studio') {
+                $scope.name = 'thibaud';
+                $scope.sourceImgBg = 'img/bg_studio.png';
+                $scope.sourceImgBgMini = 'img/bg_studio_560.png';
+                $scope.phraseConsulte = 'Le forfait, oui, mais seulement au ski !';
+                $scope.nomConsulte = 'Thibaud Cavin, Responsable Xebia Studio';
+                $scope.phraseConsultant = 'A grand, grand et demi ?';
+                $scope.expert = 'L’EXPERT';
+                $scope.apprenti = 'L’APPRENTI';
+                $scope.nomConsultant = 'Emmanuel Sciara, Coach Agile';
+                $scope.rond1 = 'img/emmanuel_sciara.png';
+                $scope.quote1 = 'Il faut savoir faire tourner tout ça ! En faisant en sorte que clients ET Xebians soient contents, s’il vous plait !  Bref, un travail d’équilibriste, pavé de contraintes et de paramètres mouvants : il faut être disponible tout en jonglant avec des œufs et préparer les propositions commerciales. Ce qui m’a vraiment impressionné ? La fluidité du travail d’équipe entre le management Studio, l’opérationnel et le marketing. Pas de problème qui ne trouve de solution !';
+                $scope.role_plus = 'Le travail d’équipe avec les autres parties prenantes.';
+                $scope.role_moins = 'La préparation de contrats et de soutenances.';
+                $scope.gratifiante = 'Les retours clients positifs et l’image qu’on nous donne en retour.';
+                $scope.ingrate = 'Ecrire les contrats avec tous les aller-retours client que cela implique.';
+                $scope.ccl = 'En conclusion : Enlevez moi la paperasse et je signe !!! Bon, en fait, ça fait partie du job… Ça va être dur !'
+                $scope.video = 'https://www.youtube.com/embed/Zx8h98rmWKQ?rel=0';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-directStudio&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/XebianVMV-directStudio";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/XebianVMV-directStudio";
+                $scope.blog_article = "http://blog.xebia.fr/2015/09/08/vis-ma-vie-epi…tudio-dun-jour/";
+            }
 
             // else if (id == 'Dir. Recrutement') {
             //     $scope.name = 'laetitia';
