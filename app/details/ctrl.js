@@ -78,7 +78,7 @@ angular.module('app')
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-directStudio&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/XebianVMV-directStudio";
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/XebianVMV-directStudio";
-                $scope.blog_article = "http://blog.xebia.fr/2015/09/08/vis-ma-vie-epi…tudio-dun-jour/";
+                $scope.blog_article = "http://blog.xebia.fr/2015/09/08/vis-ma-vie-episode-3-emmanuel-directeur-xebia-studio-dun-jour/";
             }
 
             // else if (id == 'Dir. Recrutement') {
