@@ -75,9 +75,9 @@ angular.module('app')
                 $scope.ingrate = 'Ecrire les contrats avec tous les aller-retours client que cela implique.';
                 $scope.ccl = 'En conclusion : Enlevez moi la paperasse et je signe !!! Bon, en fait, ça fait partie du job… Ça va être dur !'
                 $scope.video = 'https://www.youtube.com/embed/PKSHTaxoHjs?rel=0';
-                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-directStudio&hashtags=XebianVMV&via=XebiaFr";
-                $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/XebianVMV-directStudio";
-                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/XebianVMV-directStudio";
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-DirectStudio&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/XebianVMV-DirectStudio";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/XebianVMV-DirectStudio";
                 $scope.blog_article = "http://blog.xebia.fr/2015/09/08/vis-ma-vie-episode-3-emmanuel-directeur-xebia-studio-dun-jour/";
             }
 
