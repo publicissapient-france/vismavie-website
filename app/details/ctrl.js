@@ -92,16 +92,16 @@ angular.module('app')
             //     $scope.expert = 'L’EXPERTE';
             //     $scope.apprenti = 'L’APPRENTI';
             //     $scope.rond1 = 'img/jeremy_vinai.png';
-            //     $scope.quote1 = '"Jeremy Vinai société Xebia bonjour." Une journée très agréable autour du metier de responsable recrutement où j’ai pu voir comment gérer la recherche de profils, gérer l’organisation de l’équipe recrutement, entretenir le contact avec les futurs potentiels recrutés et s’occuper des nouveaux Xebians et de leur bonne intégration.Beaucoup d’intéraction en interne comme avec l’exterieur !';
-            //     $scope.role_plus = 'La variété des responsabilités / tâches.';
-            //     $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-            //     $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
-            //     $scope.ingrate = 'Les relances par mail.';
-            //     $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-            //     $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+            //     $scope.quote1 = 'Jeremy Vinai, société Xebia, bonjour." Durant cette journée très agréable, j’ai pu assimiler toutes les tâches d'une Directrice Recrutement : gérer la recherche de profils, manager l’équipe recrutement, entretenir le contact avec les futurs potentiels recrutés et accueillir les nouveaux Xebians, pour une bonne intégration. Ce métier demande beaucoup d’intéractions en interne comme en externe !';
+            //     $scope.role_plus = 'Le rapport humain';
+            //     $scope.role_moins = 'L’importance du timing dans la recherche de pépite';
+            //     $scope.gratifiante = 'La signature finale';
+            //     $scope.ingrate = 'Dépendre des consultants recruteurs pour la suite du process de recrutement';
+            //     $scope.ccl = 'En bref, une superbe expérience et un regard neuf sur le métier de recruteur !'
+            //     $scope.video = 'https://www.youtube.com/embed/y0cFgueZPJU?rel=0';
+            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-DirRecrutement&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+            //     $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DirRecrutement";
+            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DirRecrutement";
             //     $scope.blog_article = "http://blog.xebia.fr";
             // }
 
@@ -109,23 +109,23 @@ angular.module('app')
             //     $scope.name = 'anne';
             //     $scope.sourceImgBg = 'img/bg_marketing_black.png';
             //     $scope.sourceImgBgMini = 'img/bg_marketing_560.png';
-            //     $scope.phraseConsulte = 'Du violet du violet ... Je veux du violet partout !!';
+            //     $scope.phraseConsulte = 'Du violet du violet ... Je veux du violet partout !';
             //     $scope.nomConsulte = 'Anne Beauchart, Directrice Marketing';
             //     $scope.expert = 'L’EXPERTE';
             //     $scope.apprenti = 'L’APPRENTIE';
-            //     $scope.phraseConsultant = 'Marketing KESAKO ';
+            //     $scope.phraseConsultant = 'C’est easy !';
             //     $scope.nomConsultant = 'Sameh Ben Fredj, Consultante';
             //     $scope.rond1 = 'img/sameh_ben_fredj.png';
-            //     $scope.quote1 = 'Le marketing, maintenant JE CONNAIS !';
-            //     $scope.role_plus = 'La variété des responsabilités / tâches.';
-            //     $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-            //     $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
-            //     $scope.ingrate = 'Les relances par mail.';
-            //     $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-            //     $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+            //     $scope.quote1 = 'Cette journée m’a permise d’avoir une meilleure compréhension du métier de Directrice Marketing. Je me disais «C’est easy !» mais en réalité, j’en ai eu plein les yeux ! C’est une expérience intense et riche. La Directrice Marketing est les yeux, les oreilles et la bouche de Xebia. Elle est partout pour représenter la boîte et en faire parler. Sa journée est un vrai marathon. Elle touche à tout : rédaction, web, événementiel, tout en gérant le budget et des deadlines très serrées. Chapeau bas !';
+            //     $scope.role_plus = 'Le côté touche à tout et être partout';
+            //     $scope.role_moins = 'L’écriture, la mise en page et la publication des billets de blog';
+            //     $scope.gratifiante = 'Le fait que Xebia soit visible partout !';
+            //     $scope.ingrate = 'L’investissement passé sur les TechTrends, nos livres blancs !';
+            //     $scope.ccl = 'En conclusion : Finalement « le market, c’est pas du tout easy ! » et être Directrice Marketing d’un jour m’aura suffit ! :-)'
+            //     $scope.video = 'https://www.youtube.com/embed/gGGOJzL5Vhg?rel=0';
+            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/XebianVMV-DirMarketing&hashtags=XebianVMV&via=XebiaFr";
+            //     $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DirMarketing";
+            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DirMarketing";
             //     $scope.blog_article = "http://blog.xebia.fr";
             // }
 
@@ -213,16 +213,16 @@ angular.module('app')
             //     $scope.apprenti = 'L’APPRENTI';
             //     $scope.nomConsultant = 'Clément Heliou, Consultant';
             //     $scope.rond1 = 'img/clement_heliou.png';
-            //     $scope.quote1 = 'Justification, fric, pognon, chic ! La DAF une fonction, un métier, une passion, être dévoué !';
-            //     $scope.role_plus = 'La variété des responsabilités / tâches.';
-            //     $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-            //     $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
-            //     $scope.ingrate = 'Les relances par mail.';
-            //     $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-            //     $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+            //     $scope.quote1 = 'Le quotidien de DAF, c'est un savant mélange entre financier, juridique et social. C'est être un organe vital de l'entreprise qui s'assure de son équilibre et de son bien être. Jamais je n'aurais pu imaginer qu'il faille assurer autant de tâches avec une marge d'erreur minime si ce n'est inexistante.';
+            //     $scope.role_plus = 'Le côté central et indispensable du poste.';
+            //     $scope.role_moins = 'Subir les joies des lois, des taxes, etc. ; je n'aurais jamais imaginé à quel point il est dur de faire vivre une entreprise.';
+            //     $scope.gratifiante = 'Etre un organe vital de l'entreprise !';
+            //     $scope.ingrate = 'Préparer des documents complexes et sans forcément en voir l'intérêt (ex: fiches des produits nettoyants utilisés)';
+            //     $scope.ccl = 'En conclusion : Bref, je crois qu'on peut le dire ; être DAF, c'est punk !'
+            //     $scope.video = 'https://www.youtube.com/embed/os54MbZA_18';
+            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/XebianVMV-DAF&hashtags=XebianVMV&via=XebiaFr";
+            //     $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DAF";
+            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DAF";
             //     $scope.blog_article = "http://blog.xebia.fr";
             // }
 
