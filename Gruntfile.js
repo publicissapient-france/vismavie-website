@@ -116,6 +116,7 @@ module.exports = function (grunt) {
                         expand: true,
                         src: [
                             'app/**/*.html',
+                            'style/**/*',
                             'img/**/*',
                             'CNAME'
                         ],
