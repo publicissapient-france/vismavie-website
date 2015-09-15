@@ -7,7 +7,6 @@ angular.module('app')
             restrict: 'E',
             templateUrl: 'app/directive/menu.html',
             controller: ['$scope', '$location', function($scope, $location) {
-                console.log($scope.isLink);
                 $scope.changeData = function(id) {
                     if ($scope.isLink) {
                         $location.path('/details').search({id: id});
