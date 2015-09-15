@@ -23,9 +23,13 @@ supprimer ng-disabled="true" et le "disabled" dans class="md-raised md-primary m
 Dans le fichier ctrl.js dans la section > scope.blog_article = "http://blog.xebia.fr"; changer par l'url de l'article !
 
 Pour déployer je fais donc 
+
 terminal : 
+
 Je vais dans mon repo vis ma vie
+
 grunt (entrer)
+
 je fais mes diverses modifs
 
 ctrl+c
