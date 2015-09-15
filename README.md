@@ -27,9 +27,15 @@ terminal :
 Je vais dans mon repo vis ma vie
 grunt (entrer)
 je fais mes diverses modifs
+
 ctrl+c
+
 git add .
+
 git status
+
 git commit -m "message"
+
 git push
+
 grunt deploy
