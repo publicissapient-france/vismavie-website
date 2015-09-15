@@ -81,29 +81,29 @@ angular.module('app')
                 $scope.blog_article = "http://blog.xebia.fr/2015/09/08/vis-ma-vie-episode-3-emmanuel-directeur-xebia-studio-dun-jour/";
             }
 
-            // else if (id == 'Dir. Recrutement') {
-            //     $scope.name = 'laetitia';
-            //     $scope.sourceImgBg = 'img/bg_recrutement.png';
-            //     $scope.sourceImgBgMini = 'img/bg_recrutement_560.png';
-            //     $scope.phraseConsulte = 'Une chasseuse sachant chasser…';
-            //     $scope.nomConsulte = 'Laetitia Janné, Responsable du recrutement';
-            //     $scope.phraseConsultant = 'La puissance de la funk !';
-            //     $scope.nomConsultant = 'Jeremy Vinai, Consultant';
-            //     $scope.expert = 'L’EXPERTE';
-            //     $scope.apprenti = 'L’APPRENTI';
-            //     $scope.rond1 = 'img/jeremy_vinai.png';
-            //     $scope.quote1 = 'Jeremy Vinai, société Xebia, bonjour." Durant cette journée très agréable, j’ai pu assimiler toutes les tâches d'une Directrice Recrutement : gérer la recherche de profils, manager l’équipe recrutement, entretenir le contact avec les futurs potentiels recrutés et accueillir les nouveaux Xebians, pour une bonne intégration. Ce métier demande beaucoup d’intéractions en interne comme en externe !';
-            //     $scope.role_plus = 'Le rapport humain';
-            //     $scope.role_moins = 'L’importance du timing dans la recherche de pépite';
-            //     $scope.gratifiante = 'La signature finale';
-            //     $scope.ingrate = 'Dépendre des consultants recruteurs pour la suite du process de recrutement';
-            //     $scope.ccl = 'En bref, une superbe expérience et un regard neuf sur le métier de recruteur !'
-            //     $scope.video = 'https://www.youtube.com/embed/y0cFgueZPJU?rel=0';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-DirRecrutement&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DirRecrutement";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DirRecrutement";
-            //     $scope.blog_article = "http://blog.xebia.fr";
-            // }
+            else if (id == 'Dir. Recrutement') {
+                $scope.name = 'laetitia';
+                $scope.sourceImgBg = 'img/bg_recrutement.png';
+                $scope.sourceImgBgMini = 'img/bg_recrutement_560.png';
+                $scope.phraseConsulte = 'Une chasseuse sachant chasser…';
+                $scope.nomConsulte = 'Laetitia Janné, Responsable du recrutement';
+                $scope.phraseConsultant = 'La puissance de la funk !';
+                $scope.nomConsultant = 'Jeremy Vinai, Consultant';
+                $scope.expert = 'L’EXPERTE';
+                $scope.apprenti = 'L’APPRENTI';
+                $scope.rond1 = 'img/jeremy_vinai.png';
+                $scope.quote1 = 'Jeremy Vinai, société Xebia, bonjour.\" Durant cette journée très agréable, j’ai pu assimiler toutes les tâches d\'une Directrice Recrutement : gérer la recherche de profils, manager l’équipe recrutement, entretenir le contact avec les futurs potentiels recrutés et accueillir les nouveaux Xebians, pour une bonne intégration. Ce métier demande beaucoup d’intéractions en interne comme en externe !\" ';
+                $scope.role_plus = 'Le rapport humain';
+                $scope.role_moins = 'L’importance du timing dans la recherche de pépite';
+                $scope.gratifiante = 'La signature finale';
+                $scope.ingrate = 'Dépendre des consultants recruteurs pour la suite du process de recrutement';
+                $scope.ccl = 'En bref, une superbe expérience et un regard neuf sur le métier de recruteur !';
+                $scope.video = 'https://www.youtube.com/embed/y0cFgueZPJU?rel=0';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-DirRecrutement&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DirRecrutement";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DirRecrutement";
+                $scope.blog_article = "http://blog.xebia.fr/2015/09/15/vis-ma-vie-episode-4-jeremy-directeur-recrutement-dun-jour";
+            }
 
             // else if (id == 'Dir. Marketing') {
             //     $scope.name = 'anne';
