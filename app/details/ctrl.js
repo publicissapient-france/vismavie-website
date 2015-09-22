@@ -105,29 +105,29 @@ angular.module('app')
                 $scope.blog_article = "http://blog.xebia.fr/2015/09/15/vis-ma-vie-episode-4-jeremy-directeur-recrutement-dun-jour";
             }
 
-            // else if (id == 'Dir. Marketing') {
-            //     $scope.name = 'anne';
-            //     $scope.sourceImgBg = 'img/bg_marketing_black.png';
-            //     $scope.sourceImgBgMini = 'img/bg_marketing_560.png';
-            //     $scope.phraseConsulte = 'Du violet du violet ... Je veux du violet partout !';
-            //     $scope.nomConsulte = 'Anne Beauchart, Directrice Marketing';
-            //     $scope.expert = 'L’EXPERTE';
-            //     $scope.apprenti = 'L’APPRENTIE';
-            //     $scope.phraseConsultant = 'C’est easy !';
-            //     $scope.nomConsultant = 'Sameh Ben Fredj, Consultante';
-            //     $scope.rond1 = 'img/sameh_ben_fredj.png';
-            //     $scope.quote1 = 'Cette journée m’a permise d’avoir une meilleure compréhension du métier de Directrice Marketing. Je me disais «C’est easy !» mais en réalité, j’en ai eu plein les yeux ! C’est une expérience intense et riche. La Directrice Marketing est les yeux, les oreilles et la bouche de Xebia. Elle est partout pour représenter la boîte et en faire parler. Sa journée est un vrai marathon. Elle touche à tout : rédaction, web, événementiel, tout en gérant le budget et des deadlines très serrées. Chapeau bas !';
-            //     $scope.role_plus = 'Le côté touche à tout et être partout';
-            //     $scope.role_moins = 'L’écriture, la mise en page et la publication des billets de blog';
-            //     $scope.gratifiante = 'Le fait que Xebia soit visible partout !';
-            //     $scope.ingrate = 'L’investissement passé sur les TechTrends, nos livres blancs !';
-            //     $scope.ccl = 'En conclusion : Finalement « le market, c’est pas du tout easy ! » et être Directrice Marketing d’un jour m’aura suffit ! :-)'
-            //     $scope.video = 'https://www.youtube.com/embed/gGGOJzL5Vhg?rel=0';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/XebianVMV-DirMarketing&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DirMarketing";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DirMarketing";
-            //     $scope.blog_article = "http://blog.xebia.fr";
-            // }
+             else if (id == 'Dir. Marketing') {
+                 $scope.name = 'anne';
+                 $scope.sourceImgBg = 'img/bg_marketing_black.png';
+                 $scope.sourceImgBgMini = 'img/bg_marketing_560.png';
+                 $scope.phraseConsulte = 'Du violet du violet ... Je veux du violet partout !';
+                 $scope.nomConsulte = 'Anne Beauchart, Directrice Marketing';
+                 $scope.expert = 'L’EXPERTE';
+                 $scope.apprenti = 'L’APPRENTIE';
+                 $scope.phraseConsultant = 'C’est easy !';
+                 $scope.nomConsultant = 'Sameh Ben Fredj, Consultante';
+                 $scope.rond1 = 'img/sameh_ben_fredj.png';
+                 $scope.quote1 = 'Cette journée m’a permise d’avoir une meilleure compréhension du métier de Directrice Marketing. Je me disais «C’est easy !» mais en réalité, j’en ai eu plein les yeux ! C’est une expérience intense et riche. La Directrice Marketing est les yeux, les oreilles et la bouche de Xebia. Elle est partout pour représenter la boîte et en faire parler. Sa journée est un vrai marathon. Elle touche à tout : rédaction, web, événementiel, tout en gérant le budget et des deadlines très serrées. Chapeau bas !';
+                 $scope.role_plus = 'Le côté touche à tout et être partout';
+                 $scope.role_moins = 'L’écriture, la mise en page et la publication des billets de blog';
+                 $scope.gratifiante = 'Le fait que Xebia soit visible partout !';
+                 $scope.ingrate = 'L’investissement passé sur les TechTrends, nos livres blancs !';
+                 $scope.ccl = 'En conclusion : Finalement « le market, c’est pas du tout easy ! » et être Directrice Marketing d’un jour m’aura suffit ! :-)'
+                 $scope.video = 'https://www.youtube.com/embed/gGGOJzL5Vhg?rel=0';
+                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/XebianVMV-DirMarketing&hashtags=XebianVMV&via=XebiaFr";
+                 $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DirMarketing";
+                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DirMarketing";
+                 $scope.blog_article = "http://blog.xebia.fr/2015/09/22/vis-ma-vie-episode-5-sameh-directrice-marketing-dun-jour";
+             }
 
 
             // else if (id == 'COO') {
