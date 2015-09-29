@@ -202,29 +202,29 @@ angular.module('app')
             //     $scope.blog_article = "http://blog.xebia.fr";
             // }
 
-            // else if (id == 'DAF') {
-            //     $scope.name = 'nadia';
-            //     $scope.sourceImgBg = 'img/bg_daf.png';
-            //     $scope.sourceImgBgMini = 'img/bg_daf_560.png';
-            //     $scope.phraseConsulte = 'Pas de justif pas de fric !';
-            //     $scope.nomConsulte = 'Nadia Sidhoum, DAF';
-            //     $scope.phraseConsultant = 'DAFicionado !';
-            //     $scope.expert = 'L’EXPERTE';
-            //     $scope.apprenti = 'L’APPRENTI';
-            //     $scope.nomConsultant = 'Clément Heliou, Consultant';
-            //     $scope.rond1 = 'img/clement_heliou.png';
-            //     $scope.quote1 = 'Le quotidien de DAF, c'est un savant mélange entre financier, juridique et social. C'est être un organe vital de l'entreprise qui s'assure de son équilibre et de son bien être. Jamais je n'aurais pu imaginer qu'il faille assurer autant de tâches avec une marge d'erreur minime si ce n'est inexistante.';
-            //     $scope.role_plus = 'Le côté central et indispensable du poste.';
-            //     $scope.role_moins = 'Subir les joies des lois, des taxes, etc. ; je n'aurais jamais imaginé à quel point il est dur de faire vivre une entreprise.';
-            //     $scope.gratifiante = 'Etre un organe vital de l'entreprise !';
-            //     $scope.ingrate = 'Préparer des documents complexes et sans forcément en voir l'intérêt (ex: fiches des produits nettoyants utilisés)';
-            //     $scope.ccl = 'En conclusion : Bref, je crois qu'on peut le dire ; être DAF, c'est punk !'
-            //     $scope.video = 'https://www.youtube.com/embed/os54MbZA_18';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/XebianVMV-DAF&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DAF";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DAF";
-            //     $scope.blog_article = "http://blog.xebia.fr";
-            // }
+            else if (id == 'DAF') {
+                 $scope.name = 'nadia';
+                 $scope.sourceImgBg = 'img/bg_daf.png';
+                 $scope.sourceImgBgMini = 'img/bg_daf_560.png';
+                 $scope.phraseConsulte = 'Pas de justif pas de fric !';
+                 $scope.nomConsulte = 'Nadia Sidhoum, DAF';
+                 $scope.phraseConsultant = 'DAFicionado !';
+                 $scope.expert = 'L’EXPERTE';
+                 $scope.apprenti = 'L’APPRENTI';
+                 $scope.nomConsultant = 'Clément Heliou, Consultant';
+                 $scope.rond1 = 'img/clement_heliou.png';
+                 $scope.quote1 = 'Le quotidien de DAF, c’est un savant mélange entre financier, juridique et social. C’est être un organe vital de l’entreprise qui s’assure de son équilibre et de son bien être. Jamais je n’aurais pu imaginer qu’il faille assurer autant de tâches avec une marge d’erreur minime si ce n’est inexistante.';
+                 $scope.role_plus = 'Le côté central et indispensable du poste.';
+                 $scope.role_moins = 'Subir les joies des lois, des taxes, etc. ; je n’aurais jamais imaginé à quel point il est dur de faire vivre une entreprise.';
+                 $scope.gratifiante = 'Etre un organe vital de l’entreprise !';
+                 $scope.ingrate = 'Préparer des documents complexes et sans forcément en voir l’intérêt (ex: fiches des produits nettoyants utilisés)';
+                 $scope.ccl = 'En conclusion : Bref, je crois qu’on peut le dire ; être DAF, c’est punk !'
+                 $scope.video = 'https://www.youtube.com/embed/os54MbZA_18';
+                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/XebianVMV-DAF&hashtags=XebianVMV&via=XebiaFr";
+                 $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/XebianVMV-DAF";
+                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DAF";
+                 $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
+             }
 
             else{
                 $location.path('/').replace();
