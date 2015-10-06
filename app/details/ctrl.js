@@ -136,7 +136,7 @@ angular.module('app')
                  $scope.sourceImgBgMini = 'img/bg_coo_560.png';
                  $scope.phraseConsulte = 'Délégation idoine';
                  $scope.nomConsulte = 'Christophe Heubes, COO';
-                 $scope.phraseConsultant = 'Opérations TEKNIKE';
+                 $scope.phraseConsultant = 'Moi aussi j’ai cherché dans le dico...';
                  $scope.expert = 'L’EXPERT';
                  $scope.apprenti = 'L’APPRENTI';
                  $scope.nomConsultant = 'Jéremie Martinez, Consultant';
