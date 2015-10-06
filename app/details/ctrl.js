@@ -148,7 +148,7 @@ angular.module('app')
                  $scope.ingrate = 'La gestion des petits problèmes logistiques non visible : Imprimante, DD, réseaux, etc.';
                  $scope.ccl = 'En conclusion : Délégation idoine, avec autant de choses différentes à faire et une TODO longue comme deux bras, je comprends mieux. En tout cas, c’est pas pour moi !';
                  $scope.video = 'https://www.youtube.com/embed/UXm54jMq6TI';
-                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=UXm54jMq6TI&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/1L4eKTB&hashtags=XebianVMV&via=XebiaFr";
                  $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=UXm54jMq6TI&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
                  $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=UXm54jMq6TI&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
                  $scope.blog_article = "http://blog.xebia.fr/2015/10/06/vis-ma-vie-episode-7-jeremie-coo-dun-jour/";
