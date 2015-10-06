@@ -130,29 +130,29 @@ angular.module('app')
              }
 
 
-            // else if (id == 'COO') {
-            //     $scope.name = 'christophe';
-            //     $scope.sourceImgBg = 'img/bg_coo.png';
-            //     $scope.sourceImgBgMini = 'img/bg_coo_560.png';
-            //     $scope.phraseConsulte = 'Délégation idoine';
-            //     $scope.nomConsulte = 'Christophe Heubes, COO';
-            //     $scope.phraseConsultant = 'Opérations TEKNIKE';
-            //     $scope.expert = 'L’EXPERT';
-            //     $scope.apprenti = 'L’APPRENTI';
-            //     $scope.nomConsultant = 'Jéremie Martinez, Consultant';
-            //     $scope.rond1 = 'img/jeremie_martinez.png';
-            //     $scope.quote1 = 'Opérations !';
-            //     $scope.role_plus = 'La variété des responsabilités / tâches.';
-            //     $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-            //     $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
-            //     $scope.ingrate = 'Les relances par mail.';
-            //     $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-            //     $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.blog_article = "http://blog.xebia.fr";
-            // }
+             else if (id == 'COO') {
+                 $scope.name = 'christophe';
+                 $scope.sourceImgBg = 'img/bg_coo.png';
+                 $scope.sourceImgBgMini = 'img/bg_coo_560.png';
+                 $scope.phraseConsulte = 'Délégation idoine';
+                 $scope.nomConsulte = 'Christophe Heubes, COO';
+                 $scope.phraseConsultant = 'Opérations TEKNIKE';
+                 $scope.expert = 'L’EXPERT';
+                 $scope.apprenti = 'L’APPRENTI';
+                 $scope.nomConsultant = 'Jéremie Martinez, Consultant';
+                 $scope.rond1 = 'img/jeremie_martinez.png';
+                 $scope.quote1 = 'Ça commence tôt, ça finit tard et entre les deux ça n’arrête pas ! Un planning chargé, des interruptions nombreuses, des tâches pas toujours sympas mais au final la sensation d’avoir un vrai impact sur la vie et les personnes de la société. COO est un poste un peu caché mais qui est indispensable chez Xebia. Aucune journée ne ressemble à la précédente et il faut pouvoir se rendre disponible rapidement et à tout moment. Le COO est un peu le chef d’orchestre de Xebia.';
+                 $scope.role_plus = 'Le fait d’avoir une vue d’ensemble de l’entreprise.';
+                 $scope.role_moins = 'Les relectures de documents juridiques.';
+                 $scope.gratifiante = 'Le fait que l’entreprise tourne et réussisse.';
+                 $scope.ingrate = 'La gestion des petits problèmes logistiques non visible : Imprimante, DD, réseaux, etc.';
+                 $scope.ccl = 'En conclusion : Délégation idoine, avec autant de choses différentes à faire et une TODO longue comme deux bras, je comprends mieux. En tout cas, c’est pas pour moi !';
+                 $scope.video = 'https://www.youtube.com/embed/UXm54jMq6TI';
+                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=UXm54jMq6TI&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
+                 $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=UXm54jMq6TI&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=UXm54jMq6TI&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
+                 $scope.blog_article = "http://blog.xebia.fr/2015/10/06/vis-ma-vie-episode-7-jeremie-coo-dun-jour/";
+             }
 
             // else if (id == 'Consultant Manager') {
             //     $scope.name = 'jean-louis';
