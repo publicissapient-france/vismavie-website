@@ -178,29 +178,29 @@ angular.module('app')
             //     $scope.blog_article = "http://blog.xebia.fr";
             // }
 
-            // else if (id == 'Dir. Commerciale') {
-            //     $scope.name = 'estelle';
-            //     $scope.sourceImgBg = 'img/bg_commerce.png';
-            //     $scope.sourceImgBgMini = 'img/bg_commerce_560.png';
-            //     $scope.phraseConsulte = 'Daf punk';
-            //     $scope.nomConsulte = 'Estelle Boyer, Directrice Commerciale';
-            //     $scope.phraseConsultant = 'Choucroute garnie c"est la vie !';
-            //     $scope.expert = 'L’EXPERTE';
-            //     $scope.apprenti = 'L’APPRENTI';
-            //     $scope.nomConsultant = 'Benjamin Lacroix, Consultant';
-            //     $scope.rond1 = 'img/benjamin_lacroix.png';
-            //     $scope.quote1 = 'Journée de ouf ! Je kiff négocier chez le client ! Je fais faire une reconversion !';
-            //     $scope.role_plus = 'La variété des responsabilités / tâches.';
-            //     $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-            //     $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
-            //     $scope.ingrate = 'Les relances par mail.';
-            //     $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-            //     $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.blog_article = "http://blog.xebia.fr";
-            // }
+            else if (id == 'Dir. Commerciale') {
+                $scope.name = 'estelle';
+                $scope.sourceImgBg = 'img/bg_commerce.png';
+                $scope.sourceImgBgMini = 'img/bg_commerce_560.png';
+                $scope.phraseConsulte = 'Punk';
+                $scope.nomConsulte = 'Estelle Boyer, Directrice Commerciale';
+                $scope.phraseConsultant = 'Choucroute garnie c’est la vie !';
+                $scope.expert = 'L’EXPERTE';
+                $scope.apprenti = 'L’APPRENTI';
+                $scope.nomConsultant = 'Benjamin Lacroix, Consultant';
+                $scope.rond1 = 'img/benjamin_lacroix.png';
+                $scope.quote1 = 'Des clients, des Xebians, des missions : comment concilier tout ça ?! Ça commence par un tour d’horizon des missions/prospects en cours, puis des Xebians en devenir : comment répondre à la demande de ce client ou de ce Xebian ? Trop tard, nous avons rendez-vous pour déjeuner avec un client important. Retour au bureau et un nouveau contrat décroché ! Bon, mais qui allons-nous placer dessus ? Bilan avec l’équipe, l’avancement des tâches, réunion marketing pour la XebiCon et ça enchaine avec l’analyse des indicateurs de pilotage… Ouhaou j’ai la tête retournée, c’est trop, je retourne coder !';
+                $scope.role_plus = 'La gymnastique durant la réunion commerciale pour placer le bon collaborateur sur la bonne mission au bon moment.';
+                $scope.role_moins = 'Le micro-management sur les actions de la semaine de chaque commercial.';
+                $scope.gratifiante = 'Le retour positif des clients après qu’une équipe de Xebians soit intervenue sur une mission.';
+                $scope.ingrate = 'Le recouvrement d’une facture impayée.';
+                $scope.ccl = 'En conclusion : J’ai les oreilles qui fument, je vais échanger mon costume contre mon Mac et retourner coder.'
+                $scope.video = 'https://www.youtube.com/embed/Njkw4eAn8lc';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/embed/Njkw4eAn8lc&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/embed/Njkw4eAn8lc";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/embed/Njkw4eAn8lc";
+                $scope.blog_article = "http://blog.xebia.fr";
+             }
 
             else if (id == 'DAF') {
                  $scope.name = 'nadia';
