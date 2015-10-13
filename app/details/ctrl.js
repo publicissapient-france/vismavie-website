@@ -196,10 +196,10 @@ angular.module('app')
                 $scope.ingrate = 'Le recouvrement d’une facture impayée.';
                 $scope.ccl = 'En conclusion : J’ai les oreilles qui fument, je vais échanger mon costume contre mon Mac et retourner coder.'
                 $scope.video = 'https://www.youtube.com/embed/Njkw4eAn8lc';
-                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/embed/Njkw4eAn8lc&hashtags=XebianVMV&via=XebiaFr";
-                $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/embed/Njkw4eAn8lc";
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/1Zy1tfG&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/1Zy1tfG";
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/embed/Njkw4eAn8lc";
-                $scope.blog_article = "http://blog.xebia.fr";
+                $scope.blog_article = "http://bit.ly/1Zy1tfG";
              }
 
             else if (id == 'DAF') {
