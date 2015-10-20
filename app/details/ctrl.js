@@ -154,29 +154,29 @@ angular.module('app')
                  $scope.blog_article = "http://blog.xebia.fr/2015/10/06/vis-ma-vie-episode-7-jeremie-coo-dun-jour/";
              }
 
-            // else if (id == 'Consultant Manager') {
-            //     $scope.name = 'jean-louis';
-            //     $scope.sourceImgBg = 'img/bg_manager.png';
-            //     $scope.sourceImgBgMini = 'img/bg_manager_560.png';
-            //     $scope.phraseConsulte = 'I manage, you manage, he manages';
-            //     $scope.nomConsulte = 'Jean-Louis Rigau, Manager';
-            //     $scope.phraseConsultant = 'Je veux manager ! ';
-            //     $scope.expert = 'L’EXPERT';
-            //     $scope.apprenti = 'L’APPRENTI';
-            //     $scope.nomConsultant = 'Antoine Michaud, Consultant';
-            //     $scope.rond1 = 'img/antoine_michaud.png';
-            //     $scope.quote1 = 'Manager un jour, manager pour toujours !';
-            //     $scope.role_plus = 'La variété des responsabilités / tâches.';
-            //     $scope.role_moins = 'La température ( pas celle de mon CTO, celle de l’air ;) )';
-            //     $scope.gratifiante = 'La force de proposition / décision du CTO quant au choix des missions qui pourraient intéresser les Xebians.';
-            //     $scope.ingrate = 'Les relances par mail.';
-            //     $scope.ccl = 'En conclusion : C’est pas moi le patron, et c’est très bien comme ça !'
-            //     $scope.video = 'https://www.youtube.com/embed/2twefLKkW0o';
-            //     $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48&hashtags=XebianVMV&via=XebiaFr";
-            //     $scope.video_google = "https://plus.google.com/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/watch?v=D3OXULlXFi0&index=1&list=PL-Wbj9VN8zDSHojMLxdpDSpMBojN81B48";
-            //     $scope.blog_article = "http://blog.xebia.fr";
-            // }
+            else if (id == 'Consultant Manager') {
+                $scope.name = 'jean-louis';
+                $scope.sourceImgBg = 'img/bg_manager.png';
+                $scope.sourceImgBgMini = 'img/bg_manager_560.png';
+                $scope.phraseConsulte = 'Manager et consultant avant tout';
+                $scope.nomConsulte = 'Jean-Louis Rigau, Manager';
+                $scope.phraseConsultant = 'Tournez Managers';
+                $scope.expert = 'L’EXPERT';
+                $scope.apprenti = 'L’APPRENTI';
+                $scope.nomConsultant = 'Antoine Michaud, Consultant';
+                $scope.rond1 = 'img/antoine_michaud.png';
+                $scope.quote1 = 'Les managers font un boulot étonnant. Sous ce terme un peu générique se cachent beaucoup de responsabilités : l’intégration des xebians, leur bien-être en mission, la bonne coordination avec l’administration, etc. Franchement, je le pense depuis mes débuts ici et je continue de le penser : s’il fait bon vivre de bosser ici, ils n’y sont pas pour rien. Bravo les gars, vous assurez!';
+                $scope.role_plus = 'La proximité avec l’ensemble des xebians. C’est agréable de pouvoir réfléchir à plusieurs !';
+                $scope.role_moins = 'Les taches administratives non automatisées, mais nécessaires.';
+                $scope.gratifiante = 'L’aboutissement de l’ensemble des tâches.';
+                $scope.ingrate = 'Le staffing !';
+                $scope.ccl = 'Conclusion : c’est fou tout ce qui peut arriver quand on croise un motard...'
+                $scope.video = 'https://www.youtube.com/embed/PgDO9QhpRDk';
+                $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-ConsultantManager&hashtags=XebianVMV&via=XebiaFr";
+                $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/XebianVMV-ConsultantManager";
+                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/XebianVMV-ConsultantManager";
+                $scope.blog_article = "http://blog.xebia.fr";
+            }
 
             else if (id == 'Dir. Commerciale') {
                 $scope.name = 'estelle';
@@ -194,7 +194,7 @@ angular.module('app')
                 $scope.role_moins = 'Le micro-management sur les actions de la semaine de chaque commercial.';
                 $scope.gratifiante = 'Le retour positif des clients après qu’une équipe de Xebians soit intervenue sur une mission.';
                 $scope.ingrate = 'Le recouvrement d’une facture impayée.';
-                $scope.ccl = 'En conclusion : J’ai les oreilles qui fument, je vais échanger mon costume contre mon Mac et retourner coder.'
+                $scope.ccl = 'En conclusion : J’ai les oreilles qui fument, je vais échanger mon costume contre mon Mac et retourner coder.';
                 $scope.video = 'https://www.youtube.com/embed/Njkw4eAn8lc';
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/1Zy1tfG&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/1Zy1tfG";
