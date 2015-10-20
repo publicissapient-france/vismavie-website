@@ -175,7 +175,7 @@ angular.module('app')
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=http://bit.ly/XebianVMV-ConsultantManager&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=http://bit.ly/XebianVMV-ConsultantManager";
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=http://bit.ly/XebianVMV-ConsultantManager";
-                $scope.blog_article = "http://blog.xebia.fr";
+                $scope.blog_article = "http://blog.xebia.fr/2015/10/20/vis-ma-vie-episode-9-antoine-consultant-manager-dun-jour/";
             }
 
             else if (id == 'Dir. Commerciale') {
