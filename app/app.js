@@ -3,6 +3,7 @@
 angular.module('app', ['ngRoute', 'ngResource', 'ngMaterial'])
     .config(['$routeProvider', '$sceDelegateProvider', function ($routeProvider, $sceDelegateProvider) {
         $routeProvider.when('/details', {controller: 'DetailsCtrl', templateUrl: 'app/details/tmpl.html'});
+        $routeProvider.when('/retour', {controller: 'RetourCtrl', templateUrl: 'app/retour/tmpl.html'});
         $routeProvider.when('/', {controller: 'HomeCtrl', templateUrl: 'app/home/tmpl.html'});
 
 

@@ -16,6 +16,8 @@ angular.module('app')
                     $location.search('id', id);
                     $scope.$emit('changeId', id);
                 }
+
+                $scope.urlRetour = '#/retour?id='+$scope.id;
             }]
         };
     }]);
