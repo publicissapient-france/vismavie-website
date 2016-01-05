@@ -15,11 +15,11 @@ angular.module('app')
                 $scope.name = 'luc';
                 $scope.sourceImgBg = 'img/bg_ceo_matchretour.png';
                 $scope.sourceImgBgMini = 'img/bg_ceo_560_matchretour.png';
-                $scope.phraseConsulte = 'Allez, viens mettre les mains dans les post-its !';
+                $scope.phraseConsulte = 'Viens mettre les mains dans les post-its :)';
                 $scope.nomConsulte = 'Laurène Vol, Consultante ';
                 $scope.expert = 'L’EXPERTE';
                 $scope.apprenti = 'L’APPRENTI';
-                $scope.phraseConsultant = 'C’est qui le patron ???';
+                $scope.phraseConsultant = 'Amélioration continue !';
                 $scope.nomConsultant = 'Luc Legardeur, Président';
                 $scope.rond1 = 'img/luc_legardeur.png';
                 $scope.nom12 = "Luc Legardeur, Président"
@@ -40,9 +40,9 @@ angular.module('app')
                 $scope.name = 'nadia';
                 $scope.sourceImgBg = 'img/bg_daf_matchretour.png';
                 $scope.sourceImgBgMini = 'img/bg_daf_560_matchretour.png';
-                $scope.phraseConsultant = 'Pas de justif pas de fric !';
+                $scope.phraseConsultant = 'Ich been berlin ?';
                 $scope.nomConsultant = 'Nadia Sidhoum, DAF';
-                $scope.phraseConsulte = 'DAFicionado !';
+                $scope.phraseConsulte = 'A vos marques, prêts ? Orchestrez !';
                 $scope.expert = 'L’EXPERT';
                 $scope.apprenti = 'L’APPRENTIE';
                 $scope.nomConsulte = 'Clément Heliou, Consultant';
@@ -115,16 +115,16 @@ angular.module('app')
                 $scope.name = 'laetitia';
                 $scope.sourceImgBg = 'img/bg_recrutement_matchretour.png';
                 $scope.sourceImgBgMini = 'img/bg_recrutement_560_matchretour.png';
-                $scope.phraseConsultant = 'Comment ça un dev. «ça reste devant son écran toute la journée sans parler» ? ;)';
+                $scope.phraseConsultant = 'L’arroseur arrosé !';
                 $scope.nomConsultant = 'Laetitia Janné, Directrice Recrutement';
-                $scope.phraseConsulte = '!';
+                $scope.phraseConsulte = 'Comment ça un dev. «ça reste devant son écran toute la journée sans parler» ? ;)';
                 $scope.expert = 'L’EXPERT';
                 $scope.apprenti = 'L’APPRENTIE';
                 $scope.nomConsulte = 'Bastien Bonnet, Consultant';
                 $scope.rond1 = 'img/laetitia_janne.png';
                 $scope.nom12 = "Laetitia Janné, Directrice Recrutement"
-                $scope.quote1 = $sce.trustAsHtml('En faisant le match retour du Vis ma Vie, en tant que Coach Agile, auprès de Laurène, je ne m’imaginais pas du tout que cette expérience allait se révéler si étonnante, tant ma vision de leur métier était bien loin de la réalité. <br/><br/>En effet, cette journée allait être ponctuée de contextes tout aussi intéressants les uns que les autres. Laurène a en charge 80 personnes reparties sur 4 projets dans le cadre d’une transformation agile globale d’un grand compte du CAC40.  Elle fait partie d’un centre d’excellence agile transverse. Son planning est assez chargé et elle passe d’une réunion à une autre, d’un contexte projet à un autre et cela plusieurs fois par jour. Avec elle j’ai pu assister à deux séances de coaching très différentes tant la maturité des deux équipes impactées était hétéroclite. J’ai pu m’apercevoir que le métier de Laurène consistait à donner des conseils extrêmement opérationnels, bien loin des postures fumeuses des ayatollahs de la méthodologie telles qu’on en rencontre parfois dans ce métier. Son accompagnement délivre immédiatement de la valeur aux équipes. Malgré son jeune âge, Laurène fait preuve d’une maturité et d’une expérience assez exceptionnelles. J’ai tout simplement été bluffé par le niveau d’écoute de l’équipe et des managers vis à vis des conseils prodigués par Laurène. Elle vaut souvent parole d’évangile tout en facilitant le débat d’idées. J’ai également été frappé par sa capacité à changer de contexte fonctionnel et à chaque fois, à connaître assez précisément ce dont il s’agit. <br/><br/>Au delà des aspects très concrets, Laurène doit également rendre des comptes et évaluer la progression des équipes sur la voie de l’agilité au travers d’une grille constituée de critères très précis et alimentée de manière hebdomadaire. Cet exercice délicat requiert de fournir des faits susceptibles d’étayer la notation. Cette partie de pilotage permet de justifier les investissements sur les projets en coaching agile. Laurène maitrise là encore parfaitement le processus et chaque note est très bien argumentée. <br/><br/> Pour conclure, je dirais que cette immersion a été bénéfique pour moi. Comme le disent les homologues de Laurène, elle est la meilleure « VRP » de l’équipe agile. Moi j’ai adoré et finalement, il y a quelques années, je me serais bien vu dans ce métier !!! <br/><br/>Merci Laurène pour ce partage.');
-                $scope.ccl = 'En conclusion : Bref, je crois qu’on peut le dire ; être DAF, c’est punk !'
+                $scope.quote1 = $sce.trustAsHtml('9 heures, je suis prête pour devenir, à mon tour, une Développeuse made in Xebia. Je rejoins mes collègues Xebia chez VSCT, entité technique de voyage-scnf.com, située au cœur du quartier d’affaires de la Défense (ça change de mon environnement quotidien du boulevard Haussmann :) ). J’ai donc accompagné pendant’une journée trois Xebians, dont Bastien, sur un projet Data à destination du Marketing de VSCT. Ces trois Xebians sont chargés de recueillir et d’analyser les données provenant du site internet de Voyage-sncf, de les modéliser, puis de les faire « parler » afin que le Marketing puisse les exploiter. </br></br>Ma journée a commencé sur les chapeaux de roues ! Je suis arrivée au sein d’un pôle Big Data de Xebians où j’ai commencé par faire du Pair Programming avec un Data Engineer Xebia. Celui-ci est en charge de recueillir les données brutes et de les transformer pour les rendre davantage lisibles. Pendant une matinée, nous avons pu revoir le code du mécanisme de nettoyage de données réalisé en Python.</br></br>MIDI ! Le cerveau en compote, il était temps pour moi (et pour mon professeur) de nous restaurer !  De retour au siège de VSCT en début d’après-midi,  j’occupe le poste de Data Scientist. Ce Xebian a pour mission de récupérer les données nettoyées du Data Engineer afin de les modéliser pour que le Marketing puisse les comprendre et les exploiter par la suite. Nous avons donc réalisé ensemble des graphiques afin d’en tirer de la valeur. Pour cela, il s’est basé sur les sets de données fournis par le Data Engineer.</br></br>STOP ! Il me faut un THÉ ! Ça y est j’ai repris des forces, je vais pouvoir me confronter à Bastien, le dernier de la chaîne ;). Il fait du Devops principalement (industrialisation des processus de déploiement des algorithmes de modélisation). Il a pu me montrer comment il exposait les données issues des traitements du Data Engineer et du Data Scientist en développant une couche de services qu’il déploie jusqu’en production. Finalement, ce que j’ai apprécié dans cette expérience, c’est de voir la complémentarité de leurs activités et leur étroite collaboration. Au-delà de cette expérience enrichissante, techniquement parlant, j’ai pu observer les valeurs de qualité et de partage véhiculées par nos Xebians chez VSCT. Merci :)');
+                $scope.ccl = 'En conclusion : Expérience enrichissante, merci :)'
                 $scope.video = 'https://www.youtube.com/embed/os54MbZA_18';
                 $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/VMV-DevFront&hashtags=XebianVMV&via=XebiaFr";
                 $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/VMV-DevFront";
