@@ -33,8 +33,9 @@ angular.module('app')
                 $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-President-Xebia";
                 $scope.blog_article = "http://blog.xebia.fr/2015/08/25/vis-ma-vie-episode-1-laurene-prend-les-cles-de-xebia/";
                 $scope.texte_MatchReturn = "VIE MA VIE DE COACH AGILE";
-                $scope.lien_matchRetour = "";
+                $scope.lien_matchRetour = "#/retour?id=Coach Agile";
                 $scope.hasBackEpisode = true;
+                $scope.accessible = false;
 
             }
 
@@ -115,6 +116,7 @@ angular.module('app')
                 $scope.texte_MatchReturn = "VIE MA VIE DE DEVELOPPEUR";
                 $scope.lien_matchRetour = "#/retour?id=Developpeur";
                 $scope.hasBackEpisode = true;
+                $scope.accessible = true;
             }
 
              else if (id == 'Dir. Marketing') {
@@ -248,8 +250,8 @@ angular.module('app')
                  $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/XebianVMV-DAF";
                  $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/XebianVMV-DAF";
                  $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
-                 $scope.texte_MatchReturn = "VIE MA VIE DE LEAD TECH";
-                 $scope.lien_matchRetour = "#/retour?id=Lead Tech";
+                 $scope.texte_MatchReturn = "VIE MA VIE DE TECHNICAL LEADER";
+                 $scope.lien_matchRetour = "#/retour?id=Technical Leader";
                  $scope.hasBackEpisode = true;
              }
 

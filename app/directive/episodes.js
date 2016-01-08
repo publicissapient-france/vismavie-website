@@ -9,12 +9,13 @@ angular.module('app')
 
             scope.texte_MatchReturn = "";
             scope.hasBackEpisode = false;
+            scope.accessible = false;
 
             scope.episodes = [
-                {job: 'Président', texte_MatchReturn: 'Coach Agile'},
+                {job: 'Président', hasBackEpisode: true, texte_MatchReturn: 'Coach Agile', accessible: false},
                 {job: 'CTO'},
                 {job: 'Dir. Xebia Studio'},
-                {job: 'Dir. Recrutement', hasBackEpisode: true, texte_MatchReturn: 'Developpeur'},
+                {job: 'Dir. Recrutement', hasBackEpisode: true, texte_MatchReturn: 'Developpeur', accessible: true},
                 {job: 'Dir. Marketing', hasBackEpisode: true, texte_MatchReturn: 'Data Scientist'},
                 {job: 'DAF', hasBackEpisode: true, texte_MatchReturn: 'Technical Leader'},
                 {job: 'COO'},
@@ -28,12 +29,14 @@ angular.module('app')
                 if (episode.job === id){
                     scope.texte_MatchReturn = episode.texte_MatchReturn;
                     scope.hasBackEpisode = episode.hasBackEpisode;
+                    scope.accessible = episode.accessible;
                     scope.url = '#/retour?id='+episode.texte_MatchReturn;
                 }
 
                 if(episode.texte_MatchReturn == id && episode.hasBackEpisode) {
                     scope.texte_MatchReturn = episode.job;
                     scope.hasBackEpisode = episode.hasBackEpisode;
+                    scope.accessible = episode.accessible;
                     scope.url = '#/details?id='+episode.job;
                 }
             }
