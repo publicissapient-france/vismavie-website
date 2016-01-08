@@ -33,7 +33,7 @@ angular.module('app')
                 $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-President-Xebia";
                 $scope.blog_article = "http://blog.xebia.fr/2015/08/25/vis-ma-vie-episode-1-laurene-prend-les-cles-de-xebia/";
                 $scope.texte_MatchReturn = "VIE MA VIE DE COACH AGILE";
-                $scope.lien_matchRetour = "#/retour?id=Coach Agile";
+                $scope.lien_matchRetour = "";
                 $scope.hasBackEpisode = true;
 
             }
@@ -113,7 +113,7 @@ angular.module('app')
                 $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/XebianVMV-DirRecrutement";
                 $scope.blog_article = "http://blog.xebia.fr/2015/09/15/vis-ma-vie-episode-4-jeremy-directeur-recrutement-dun-jour";
                 $scope.texte_MatchReturn = "VIE MA VIE DE DEVELOPPEUR";
-                $scope.lien_matchRetour = "#/retour?id=Dev. Back";
+                $scope.lien_matchRetour = "#/retour?id=Developpeur";
                 $scope.hasBackEpisode = true;
             }
 

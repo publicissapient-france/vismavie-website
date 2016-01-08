@@ -46,6 +46,7 @@ md-toolbar
 h1
   color: white
 
+
 a.menu-link
   padding: 0px 50px
   cursor: pointer
@@ -288,7 +289,7 @@ ul.social-video-share li
   width: 33%
 
   p
-    color: #7e7e7e
+    color: #06a99c
     font-weight: 600
     font-size: 24px
 
@@ -364,9 +365,12 @@ ul.social-video-share li
   color: #6d626b
   padding-bottom: 20px
 
-.alliance-wrapper a
-  text-decoration: none
-  color: #6d626b
+  a
+    text-decoration: none
+    color: #6d626b
+
+    &:hover
+      text-decoration: underline
 
 
 
@@ -444,6 +448,7 @@ ul.social-video-share li
   font-family: Roboto
   text-transform: uppercase
   font-size: 14px
+  cursor: pointer
   transition: box-shadow .4s cubic-bezier(.25,.8,.25,1), background-color .4s cubic-bezier(.25,.8,.25,1)
 
   &:hover
@@ -747,17 +752,19 @@ ul.social-video-share li
 
   @media (max-width: 730px)
     a.btn
-      padding: 10px 0px
-      width: 80%
-      color: grey
-      display: inline-block
+    padding: 10px 0px
+    width: 80%
+    color: grey
+    display: inline-block
 
   @media (max-width: 520px)
     a.btn
-      width: 100%
-      font-size: 12px
+    width: 100%
+    font-size: 12px
 
-
+.btn_disable
+  cursor: not-allowed
+  opacity: 0.5
 
 .contour_turquoise
   border: 1px solid #06a99c

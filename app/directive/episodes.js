@@ -11,10 +11,10 @@ angular.module('app')
             scope.hasBackEpisode = false;
 
             scope.episodes = [
-                {job: 'Président', hasBackEpisode: true, texte_MatchReturn: 'Coach Agile'},
+                {job: 'Président', texte_MatchReturn: 'Coach Agile'},
                 {job: 'CTO'},
                 {job: 'Dir. Xebia Studio'},
-                {job: 'Dir. Recrutement', hasBackEpisode: true, texte_MatchReturn: 'Dev. Front'},
+                {job: 'Dir. Recrutement', hasBackEpisode: true, texte_MatchReturn: 'Developpeur'},
                 {job: 'Dir. Marketing', hasBackEpisode: true, texte_MatchReturn: 'Data Scientist'},
                 {job: 'DAF', hasBackEpisode: true, texte_MatchReturn: 'Technical Leader'},
                 {job: 'COO'},

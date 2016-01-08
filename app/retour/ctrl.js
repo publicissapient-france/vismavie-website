@@ -110,8 +110,8 @@ angular.module('app')
                 $scope.lien_matchRetour = "#/details?id=Dir. Commerciale";
             }
 
-            else if (id == 'Dev. Front') {
-                $scope.id = 'Dev. Front';
+            else if (id == 'Developpeur') {
+                $scope.id = 'Developpeur';
                 $scope.name = 'laetitia';
                 $scope.sourceImgBg = 'img/bg_recrutement_matchretour.png';
                 $scope.sourceImgBgMini = 'img/bg_recrutement_560_matchretour.png';
