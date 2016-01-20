@@ -1,5 +1,6 @@
-<episodes-menu></episodes-menu>
+<episodes-menu data="{{id}}"></episodes-menu>
 
+<div class="center retour_top"></div>
 <div class="center">
     <img ng-src="{{sourceImgBg}}" class="img-bg-detail"/>
     <img ng-src="{{sourceImgBgMini}}" class="img-bg-detail-mini"/>
@@ -31,6 +32,7 @@
             <li><a ng-href="{{video_twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <li><a ng-href="{{video_google}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
             <li><a ng-href="{{video_linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a ng-href="{{video_facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
         </ul>
 </div>
 
@@ -42,7 +44,7 @@
             <h2>{{nom12}}</h2>
         </div>
         <div class="quote">
-            <p>{{quote1}}<br/></p>
+            <p ng-bind-html="quote1" ></p>
         </div>
 </div>
 
@@ -102,27 +104,11 @@
 
 <div class="ccl center">
     <h3>{{ccl}}</h3>
-    <a ng-href="{{blog_article}}" target="_blank" class="md-raised md-primary voir_plus">La suite des ressentis</a>
+    <a ng-href="{{blog_article}}" target="_blank" class="md-raised md-primary voir_plus">La suite des ressentis</a> <br/> <br/>
+    <a ng-href="{{lien_matchRetour}}" ng-if="hasBackEpisode && accessible" class="md-raised md-primary md_button_video md_button_retour bouton_retour_top contour_orange md-button md-default-theme"><i class="fa fa-refresh"></i> {{texte_MatchReturn}}</a>
 </div>
 
-<!--<div class="plus_moins center">
-    <div class="plus">
-        <img src="img/plus.png" class="img_plus_moins"/>
-        <ul>
-            <li>{{plus1}}</li>
-            <li>{{plus2}}</li>
-            <li>{{plus3}}</li>
-        </ul>
-    </div>
-    <div class="moins">
-        <img src="img/moins.png" class="img_plus_moins"/>
-        <ul>
-            <li>{{moins1}}</li>
-            <li>{{moins2}}</li>
-            <li>{{moins3}}</li>
-        </ul>
-    </div>
-</div>-->
+
 
 
 <menu-video></menu-video>

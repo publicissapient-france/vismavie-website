@@ -23,20 +23,26 @@
 
     <md-toolbar>
         <div class="md-toolbar-tools">
-            <a href="#/"><img src="img/logo_vismavie_2.png" /></a>
+            <a href="#/"><img src="img/logo_vismavie_2.png"/></a>
+
+            <a ng-href="{{url}}" ng-if="hasBackEpisode && accessible" class="btn contour_orange bouton_retour_top"><i class="fa fa-refresh"></i> VIS MA VIE DE {{texte_MatchReturn}}</a>
 
             <span flex></span>
 
             <a href="#/#concept" class="menu-link">Concept</a>
 
             <md-menu md-offset="0 -7">
-                <a ng-click="$mdOpenMenu()" class="menu-link">
+                <a ng-click="$mdOpenMenu()" class="menu-link menu-orange">
                     Episodes
                 </a>
                 <md-menu-content width="4">
-                    <md-menu-item ng-repeat="item in ['Président', 'CTO', 'Dir. Xebia Studio', 'Dir. Recrutement', 'Dir. Marketing', 'DAF', 'COO', 'Dir. Commerciale', 'Consultant Manager']">
-                        <md-button ng-disabled="" href="#/details?id={{item}}">
-                            <span md-menu-align-target>VMV de {{item}}</span></md-button>
+                    <md-menu-item ng-repeat="episode in episodes">
+                        <md-button ng-disabled="" href="#/details?id={{episode.job}}">
+                            <span md-menu-align-target>
+                                VMV de {{episode.job}}
+                                <i ng-if="episode.hasBackEpisode" class="fa fa-refresh orange"></i>
+                            </span>
+                        </md-button>
                     </md-menu-item>
                 </md-menu-content>
             </md-menu>
