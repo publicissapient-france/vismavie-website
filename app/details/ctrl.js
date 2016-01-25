@@ -222,9 +222,10 @@ angular.module('app')
                 $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://www.youtube.com/embed/Njkw4eAn8lc";
                 $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://www.youtube.com/embed/Njkw4eAn8lc";
                 $scope.blog_article = "http://bit.ly/1Zy1tfG";
-                $scope.texte_MatchReturn = "VIE MA VIE DE DEV. FRONT";
-                $scope.lien_matchRetour = "#/retour?id=Dev. Front";
+                $scope.texte_MatchReturn = "VIE MA VIE DE DEV. ANDROID";
+                $scope.lien_matchRetour = "#/retour?id=Dev. Android";
                 $scope.hasBackEpisode = true;
+                $scope.accessible = true;
              }
 
             else if (id == 'DAF') {

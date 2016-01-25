@@ -112,30 +112,30 @@ angular.module('app')
             //    $scope.lien_matchRetour = "#/details?id=Dir. Marketing";
             //}
 
-            //else if (id == 'Dev. Android') {
-            //    $scope.id = 'Dev. Android';
-            //    $scope.name = 'estelle';
-            //    $scope.sourceImgBg = 'img/bg_commerce_matchretour.png';
-            //    $scope.sourceImgBgMini = 'img/bg_commerce_560_matchretour.png';
-            //    $scope.phraseConsultant = 'Si je copie-colle c’est bon ?';
-            //    $scope.nomConsultant = 'Estelle Boyer, Directrice Commerciale';
-            //    $scope.phraseConsulte = 'Aujourd’hui, code au menu !';
-            //    $scope.expert = 'L’EXPERT';
-            //    $scope.apprenti = 'L’APPRENTIE';
-            //    $scope.nomConsulte = 'Benjamin Lacroix, Consultant';
-            //    $scope.rond1 = 'img/estelle_boyer.png';
-            //    $scope.nom12 = "Estelle Boyer, Directrice Commerciale"
-            //    $scope.quote1 = $sce.trustAsHtml('Le jour du Vis ma Vie de Dev est arrivé… C’est donc avec plaisir que je me suis rendue dans les locaux d’une start-up devenue une célèbre vitrine de la rencontre en ligne, j’ai nommé Meetic :) ! Le temps d’une journée, j’ai donc accompagné Benjamin Lacroix en mission, pour devenir à mon tour une développeuse Android dans un environnement agile.</br></br> Je m’y suis rendue de bonne heure, curieuse de découvrir les coulisses de cette start-up réputée, de réaliser des cérémonies agiles dans une équipe mobile. Mais j’étais surtout impatiente de pouvoir enfin vivre la vie d’un consultant Xebia ! Exerçant dans le secteur de l’IT depuis presque 17 ans, je me suis forcément imaginer la vie d’un consultant. Cette journée a été l’occasion de confronter l’image que je m’en faisais avec la réalité. . C’est donc avec joie que j’ai pu confirmer qu’un consultant Xebia attache autant d’importance à son intégration, ses qualités relationnelles qu’à ses compétences de développeur. En effet, à peine arrivée, Benjamin m’a surprise par son intégration dans l’équipe après seulement un mois passé chez ce client. Plus les heures s’écoulaient plus j’ai pu sentir une forte cohésion tant dans l’équipe que dans leur niveau de compétences techniques.</br></br> Tout au long de cette journée, j’ai pu assister à diverses cérémonies agiles avec le célèbre daily meeting, la démo et, bien sûr, la rétro. C’est au cours de ces réunions que j’ai pu valider mon opinion sur le métier de consultant Xebia : ils ont su créer une vraie équipe avec une réelle ambition collective, une capacité d’écoute et de remise en question.');
-            //    $scope.ccl = 'En conclusion : Encore merci Benjamin pour cette expérience, je la referais avec grand plaisir !'
-            //    $scope.video = 'https://www.youtube.com/embed/dVWi56MfWXw';
-            //    $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/VMV-DevAndroid&hashtags=XebianVMV&via=XebiaFr";
-            //    $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/VMV-DevAndroid";
-            //    $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-DevAndroid";
-            //    $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-DevAndroid";
-            //    $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
-            //    $scope.texte_MatchReturn = "VIS MA VIE DE DIRECTRICE COMMERCIALE"
-            //    $scope.lien_matchRetour = "#/details?id=Dir. Commerciale";
-            //}
+            else if (id == 'Dev. Android') {
+               $scope.id = 'Dev. Android';
+               $scope.name = 'estelle';
+               $scope.sourceImgBg = 'img/bg_commerce_matchretour.png';
+               $scope.sourceImgBgMini = 'img/bg_commerce_560_matchretour.png';
+               $scope.phraseConsultant = 'Si je copie-colle c’est bon ?';
+               $scope.nomConsultant = 'Estelle Boyer, Directrice Commerciale';
+               $scope.phraseConsulte = 'Aujourd’hui, code au menu !';
+               $scope.expert = 'L’EXPERT';
+               $scope.apprenti = 'L’APPRENTIE';
+               $scope.nomConsulte = 'Benjamin Lacroix, Consultant';
+               $scope.rond1 = 'img/estelle_boyer.png';
+               $scope.nom12 = "Estelle Boyer, Directrice Commerciale"
+               $scope.quote1 = $sce.trustAsHtml('Le jour du Vis ma Vie de Dev est arrivé… C’est donc avec plaisir que je me suis rendue dans les locaux d’une start-up devenue une célèbre vitrine de la rencontre en ligne, j’ai nommé Meetic :) ! Le temps d’une journée, j’ai donc accompagné Benjamin Lacroix en mission, pour devenir à mon tour une développeuse Android dans un environnement agile.</br></br> Je m’y suis rendue de bonne heure, curieuse de découvrir les coulisses de cette start-up réputée, de réaliser des cérémonies agiles dans une équipe mobile. Mais j’étais surtout impatiente de pouvoir enfin vivre la vie d’un consultant Xebia ! Exerçant dans le secteur de l’IT depuis presque 17 ans, je me suis forcément imaginer la vie d’un consultant. Cette journée a été l’occasion de confronter l’image que je m’en faisais avec la réalité. . C’est donc avec joie que j’ai pu confirmer qu’un consultant Xebia attache autant d’importance à son intégration, ses qualités relationnelles qu’à ses compétences de développeur. En effet, à peine arrivée, Benjamin m’a surprise par son intégration dans l’équipe après seulement un mois passé chez ce client. Plus les heures s’écoulaient plus j’ai pu sentir une forte cohésion tant dans l’équipe que dans leur niveau de compétences techniques.</br></br> Tout au long de cette journée, j’ai pu assister à diverses cérémonies agiles avec le célèbre daily meeting, la démo et, bien sûr, la rétro. C’est au cours de ces réunions que j’ai pu valider mon opinion sur le métier de consultant Xebia : ils ont su créer une vraie équipe avec une réelle ambition collective, une capacité d’écoute et de remise en question.');
+               $scope.ccl = 'En conclusion : Encore merci Benjamin pour cette expérience, je la referais avec grand plaisir !'
+               $scope.video = 'https://www.youtube.com/embed/dVWi56MfWXw';
+               $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/VMV-DevAndroid&hashtags=XebianVMV&via=XebiaFr";
+               $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/VMV-DevAndroid";
+               $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-DevAndroid";
+               $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-DevAndroid";
+               $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
+               $scope.texte_MatchReturn = "VIS MA VIE DE DIRECTRICE COMMERCIALE"
+               $scope.lien_matchRetour = "#/details?id=Dir. Commerciale";
+            }
 
 
 

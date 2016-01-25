@@ -19,7 +19,7 @@ angular.module('app')
                 {job: 'Dir. Marketing', hasBackEpisode: true, texte_MatchReturn: 'Data Scientist'},
                 {job: 'DAF', hasBackEpisode: true, texte_MatchReturn: 'Technical Leader'},
                 {job: 'COO'},
-                {job: 'Dir. Commerciale', hasBackEpisode: true, texte_MatchReturn: 'Dev. Android'},
+                {job: 'Dir. Commerciale', hasBackEpisode: true, texte_MatchReturn: 'Dev. Android', accessible: true},
                 {job: 'Consultant Manager'}
 
             ];
