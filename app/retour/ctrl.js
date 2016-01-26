@@ -132,7 +132,7 @@ angular.module('app')
                $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/VMV-DevAndroid";
                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-DevAndroid";
                $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-DevAndroid";
-               $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
+               $scope.blog_article = "http://blog.xebia.fr/2015/10/13/vis-ma-vie-episode-8-benjamin-directeur-commercial-dun-jour/";
                $scope.texte_MatchReturn = "VIS MA VIE DE DIRECTRICE COMMERCIALE"
                $scope.lien_matchRetour = "#/details?id=Dir. Commerciale";
             }
