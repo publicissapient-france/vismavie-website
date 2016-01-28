@@ -94,7 +94,7 @@ angular.module('app')
                $scope.sourceImgBgMini = 'img/bg_marketing_560_matchretour.png';
                $scope.phraseConsultant = 'Cool, on va faire de superbes campagnes marketing !';
                $scope.nomConsultant = 'Anne Beauchart, Directrice Marketing';
-               $scope.phraseConsulte = ' !';
+               $scope.phraseConsulte = 'Data Done Right !';
                $scope.expert = 'L’EXPERTE';
                $scope.apprenti = 'L’APPRENTIE';
                $scope.nomConsulte = 'Sameh Ben Fredj, Consultante';
@@ -107,7 +107,7 @@ angular.module('app')
                $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/VMV-DataScientist";
                $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-DataScientist";
                $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-DataScientist";
-               $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
+               $scope.blog_article = "http://blog.xebia.fr/2015/09/22/vis-ma-vie-episode-5-sameh-directrice-marketing-dun-jour/";
                $scope.texte_MatchReturn = "VIS MA VIE DE DIR. MARKETING"
                $scope.lien_matchRetour = "#/details?id=Dir. Marketing";
             }
