@@ -16,7 +16,7 @@ angular.module('app')
                 {job: 'CTO'},
                 {job: 'Dir. Xebia Studio'},
                 {job: 'Dir. Recrutement', hasBackEpisode: true, texte_MatchReturn: 'Developpeur', accessible: true},
-                {job: 'Dir. Marketing', hasBackEpisode: true, texte_MatchReturn: 'Data Scientist'},
+                {job: 'Dir. Marketing', hasBackEpisode: true, texte_MatchReturn: 'Data Scientist', accessible: true},
                 {job: 'DAF', hasBackEpisode: true, texte_MatchReturn: 'Technical Leader'},
                 {job: 'COO'},
                 {job: 'Dir. Commerciale', hasBackEpisode: true, texte_MatchReturn: 'Dev. Android', accessible: true},

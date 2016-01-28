@@ -87,30 +87,30 @@ angular.module('app')
             //    $scope.lien_matchRetour = "#/details?id=DAF";
             //}
 
-            //else if (id == 'Data Scientist') {
-            //    $scope.id = 'Data Scientist';
-            //    $scope.name = 'anne';
-            //    $scope.sourceImgBg = 'img/bg_marketing_matchretour.png';
-            //    $scope.sourceImgBgMini = 'img/bg_marketing_560_matchretour.png';
-            //    $scope.phraseConsultant = 'Cool, on va faire de superbes campagnes marketing !';
-            //    $scope.nomConsultant = 'Anne Beauchart, Directrice Marketing';
-            //    $scope.phraseConsulte = ' !';
-            //    $scope.expert = 'L’EXPERTE';
-            //    $scope.apprenti = 'L’APPRENTIE';
-            //    $scope.nomConsulte = 'Sameh Ben Fredj, Consultante';
-            //    $scope.rond1 = 'img/anne_beauchart.png';
-            //    $scope.nom12 = "Anne Beauchart, Directrice Marketing"
-            //    $scope.quote1 = $sce.trustAsHtml('Et voilà, c’est le jour J, je deviens Data Scientist pour une journée aux cotés de Sameh. Avec un peu d’appréhension mais surtout beaucoup d’impatience, me voici dans les locaux de l’un de nos clients pour un projet studio. Place à une mission Data, où tous les flux de données de notre client doivent être agrégés pour acquérir une base de données lisible, pertinente et exploitable en moins de temps possible.</br> J’y retrouve aussi d’autres Xebians, Sylvain et Matthieu, Data Engineers et Ludovic, Scrum Master, sur ce projet. J’ai ainsi pu découvrir 3 métiers en 1 seule journée (enfin quelques bribes évidemment) !</br> Début de la journée, gros rush pour tout le monde, car dans 1h c’est la démo ! Pas de bol,  le “célèbre” effet démo (où rien ne marche comme prévu…) est de la partie. No stress, Sylvain et Sameh assurent le show et présentent les fonctionnalités développées durant le sprint ainsi que les premiers résultats d’exploration des données. Je suis impressionnée par la proximité des équipes métiers et des développeurs, et la bienvaillance qui y règne.  C’est ensemble que l’on se pose les bonnes questions. Ces cérémonies agiles sont vraiment plus que bénéfiques pour communiquer entre les équipes.</br> On enchaîne avec la rétro du sprint puis le nouveau sprint planning. Ceci me donne plein d’idées à implémenter au service market’ : MERCI !! Durant cette journée, nous avons beaucoup parler de documentation, par les Dév mais aussi par le Métier pour les Dév (un point insoupçonné pour moi !).</br> Bon et puis ce fut mon tour de jouer avec du code et des données ! Allez hop, c’est parti, Sylvain me présente son quotidien. Il a sélectionné les outils les plus compréhensibles pour une “non dév”, avec Cloudera Manager et Jenkins. Il a aussi pu me montrer comment faire des tests unitaires, c’est un des concepts largement traités dans les TechTrends, les billets de blog que nous relisons au marketing… mais là, c’était l’occasion de les voir en pratique.</br> C’est ensuite autour de Sameh, avec une main de maître de me présenter Jupyter, Python, les documentations en sa possession pour ensuite passer à la pratique. Avec un peu de « from » et de « where », une alternance de « cpt_client » et de « réf_cpt_date », beaucoup de logique et une excellente connaissance des données, nous voilà avec des tableaux de données exploitables directement pour une campagne marketing ! J’AIME !!!</br> À chacun son expertise, mais l’association de toutes celles-ci font de ce projet studio une belle démonstration du savoir-faire de Xebia !');
-            //    $scope.ccl = 'En conclusion : Vous êtes au top les guys. Vous permettez à notre client de faire des superbes campagnes marketing !'
-            //    $scope.video = 'https://www.youtube.com/embed/X-OI1IZ-9G0';
-            //    $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/VMV-DataScientist&hashtags=XebianVMV&via=XebiaFr";
-            //    $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/VMV-DataScientist";
-            //    $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-DataScientist";
-            //    $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-DataScientist";
-            //    $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
-            //    $scope.texte_MatchReturn = "VIS MA VIE DE DIR. MARKETING"
-            //    $scope.lien_matchRetour = "#/details?id=Dir. Marketing";
-            //}
+            else if (id == 'Data Scientist') {
+               $scope.id = 'Data Scientist';
+               $scope.name = 'anne';
+               $scope.sourceImgBg = 'img/bg_marketing_matchretour.png';
+               $scope.sourceImgBgMini = 'img/bg_marketing_560_matchretour.png';
+               $scope.phraseConsultant = 'Cool, on va faire de superbes campagnes marketing !';
+               $scope.nomConsultant = 'Anne Beauchart, Directrice Marketing';
+               $scope.phraseConsulte = ' !';
+               $scope.expert = 'L’EXPERTE';
+               $scope.apprenti = 'L’APPRENTIE';
+               $scope.nomConsulte = 'Sameh Ben Fredj, Consultante';
+               $scope.rond1 = 'img/anne_beauchart.png';
+               $scope.nom12 = "Anne Beauchart, Directrice Marketing"
+               $scope.quote1 = $sce.trustAsHtml('Et voilà, c’est le jour J, je deviens Data Scientist pour une journée aux cotés de Sameh. Avec un peu d’appréhension mais surtout beaucoup d’impatience, me voici dans les locaux de l’un de nos clients pour un projet studio. Place à une mission Data, où tous les flux de données de notre client doivent être agrégés pour acquérir une base de données lisible, pertinente et exploitable en moins de temps possible.</br> J’y retrouve aussi d’autres Xebians, Sylvain et Matthieu, Data Engineers et Ludovic, Scrum Master, sur ce projet. J’ai ainsi pu découvrir 3 métiers en 1 seule journée (enfin quelques bribes évidemment) !</br> Début de la journée, gros rush pour tout le monde, car dans 1h c’est la démo ! Pas de bol,  le “célèbre” effet démo (où rien ne marche comme prévu…) est de la partie. No stress, Sylvain et Sameh assurent le show et présentent les fonctionnalités développées durant le sprint ainsi que les premiers résultats d’exploration des données. Je suis impressionnée par la proximité des équipes métiers et des développeurs, et la bienvaillance qui y règne.  C’est ensemble que l’on se pose les bonnes questions. Ces cérémonies agiles sont vraiment plus que bénéfiques pour communiquer entre les équipes.</br> On enchaîne avec la rétro du sprint puis le nouveau sprint planning. Ceci me donne plein d’idées à implémenter au service market’ : MERCI !! Durant cette journée, nous avons beaucoup parler de documentation, par les Dév mais aussi par le Métier pour les Dév (un point insoupçonné pour moi !).</br> Bon et puis ce fut mon tour de jouer avec du code et des données ! Allez hop, c’est parti, Sylvain me présente son quotidien. Il a sélectionné les outils les plus compréhensibles pour une “non dév”, avec Cloudera Manager et Jenkins. Il a aussi pu me montrer comment faire des tests unitaires, c’est un des concepts largement traités dans les TechTrends, les billets de blog que nous relisons au marketing… mais là, c’était l’occasion de les voir en pratique.</br> C’est ensuite autour de Sameh, avec une main de maître de me présenter Jupyter, Python, les documentations en sa possession pour ensuite passer à la pratique. Avec un peu de « from » et de « where », une alternance de « cpt_client » et de « réf_cpt_date », beaucoup de logique et une excellente connaissance des données, nous voilà avec des tableaux de données exploitables directement pour une campagne marketing ! J’AIME !!!</br> À chacun son expertise, mais l’association de toutes celles-ci font de ce projet studio une belle démonstration du savoir-faire de Xebia !');
+               $scope.ccl = 'En conclusion : Vous êtes au top les guys. Vous permettez à notre client de faire des superbes campagnes marketing !'
+               $scope.video = 'https://www.youtube.com/embed/akFkLP3CEbA';
+               $scope.video_twitter = "http://twitter.com/intent/tweet/?url=https://bit.ly/VMV-DataScientist&hashtags=XebianVMV&via=XebiaFr";
+               $scope.video_google = "https://plus.google.com/share?url=https://bit.ly/VMV-DataScientist";
+               $scope.video_linkedin = "https://www.linkedin.com/cws/share?url=https://bit.ly/VMV-DataScientist";
+               $scope.video_facebook = "http://www.facebook.com/sharer.php?u=https://bit.ly/VMV-DataScientist";
+               $scope.blog_article = "http://blog.xebia.fr/2015/09/29/vis-ma-vie-episode-6-clement-daf-dun-jour";
+               $scope.texte_MatchReturn = "VIS MA VIE DE DIR. MARKETING"
+               $scope.lien_matchRetour = "#/details?id=Dir. Marketing";
+            }
 
             else if (id == 'Dev. Android') {
                $scope.id = 'Dev. Android';
