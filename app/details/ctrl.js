@@ -145,6 +145,7 @@ angular.module('app')
                  $scope.texte_MatchReturn = "VIE MA VIE DE DATA SCIENTIST";
                  $scope.lien_matchRetour = "#/retour?id=Data Scientist";
                  $scope.hasBackEpisode = true;
+                 $scope.accessible = true;
              }
 
 
