@@ -255,6 +255,7 @@ angular.module('app')
                  $scope.texte_MatchReturn = "VIE MA VIE DE TECHNICAL LEADER";
                  $scope.lien_matchRetour = "#/retour?id=Technical Leader";
                  $scope.hasBackEpisode = true;
+                 $scope.accessible = true;
              }
 
 
