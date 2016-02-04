@@ -35,7 +35,7 @@ angular.module('app')
                 $scope.texte_MatchReturn = "VIE MA VIE DE COACH AGILE";
                 $scope.lien_matchRetour = "#/retour?id=Coach Agile";
                 $scope.hasBackEpisode = true;
-                $scope.accessible = false;
+                $scope.accessible = true;
 
             }
 

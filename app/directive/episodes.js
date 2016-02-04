@@ -12,7 +12,7 @@ angular.module('app')
             scope.accessible = false;
 
             scope.episodes = [
-                {job: 'Président', hasBackEpisode: true, texte_MatchReturn: 'Coach Agile', accessible: false},
+                {job: 'Président', hasBackEpisode: true, texte_MatchReturn: 'Coach Agile', accessible: true},
                 {job: 'CTO'},
                 {job: 'Dir. Xebia Studio'},
                 {job: 'Dir. Recrutement', hasBackEpisode: true, texte_MatchReturn: 'Developpeur', accessible: true},
